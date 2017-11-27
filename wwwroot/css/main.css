@@ -33,6 +33,94 @@
   100% {
     top: calc(50% - 0px); } }
 
+@-webkit-keyframes animation-coin {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8; }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8; } }
+
+@-moz-keyframes animation-coin {
+  0% {
+    transform: scale(1);
+    opacity: 0.8; }
+  50% {
+    transform: scale(1.05);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 0.8; } }
+
+@-o-keyframes animation-coin {
+  0% {
+    transform: scale(1);
+    opacity: 0.8; }
+  50% {
+    transform: scale(1.05);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 0.8; } }
+
+@keyframes animation-coin {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8; }
+  50% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8; } }
+
+@-webkit-keyframes animation-logo {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); } }
+
+@-moz-keyframes animation-logo {
+  0% {
+    transform: scale(1.1); }
+  50% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@-o-keyframes animation-logo {
+  0% {
+    transform: scale(1.1); }
+  50% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@keyframes animation-logo {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); } }
+
 @-webkit-keyframes animation-fish-mb {
   0% {
     bottom: calc(30% - 20px); }
@@ -863,47 +951,45 @@
     background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
     background-size: contain; } }
 
-.addon__thantai {
-  max-width: 295px;
-  position: fixed;
-  left: 10%;
-  z-index: 12;
-  background: url("../images/bg/thantai.gif") center center no-repeat;
-  background-size: contain;
-  height: 350px;
-  width: 300px;
-  bottom: 5%; }
-
-.addon__goldbottom {
-  margin: 0;
-  position: absolute;
-  left: calc(50% - 275px);
-  max-width: 615px;
-  bottom: 0%; }
-
-.addon__fish {
-  right: 5%;
-  position: fixed;
-  top: calc(50% - 125px);
-  max-width: 250px;
-  -webkit-animation: animation-fish 4s infinite;
-  animation: animation-fish 4s infinite; }
-
-.addon__shark {
-  left: 5%;
-  position: fixed;
-  top: 1%;
-  max-width: 250px;
-  -webkit-animation: animation-shark 4s infinite;
-  animation: animation-shark 4s infinite; }
-
-.addon__octopus {
-  right: 30%;
-  position: absolute;
-  bottom: 25%;
-  max-width: 120px;
-  -webkit-animation: animation-octopus 4s infinite;
-  animation: animation-octopus 4s infinite; }
+.addon {
+  pointer-events: none; }
+  .addon__thantai {
+    max-width: 295px;
+    position: fixed;
+    left: 5%;
+    z-index: 12;
+    background: url("../images/bg/thantai.gif") center center no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+    bottom: 0%; }
+  .addon__goldbottom {
+    margin: 0;
+    position: absolute;
+    left: calc(50% - 275px);
+    max-width: 615px;
+    bottom: 0%; }
+  .addon__fish {
+    right: 5%;
+    position: absolute;
+    top: calc(50% - 125px);
+    max-width: 250px;
+    -webkit-animation: animation-fish 6s infinite;
+    animation: animation-fish 6s infinite; }
+  .addon__shark {
+    left: 5%;
+    position: absolute;
+    top: 1%;
+    max-width: 250px;
+    -webkit-animation: animation-shark 6s infinite;
+    animation: animation-shark 6s infinite; }
+  .addon__octopus {
+    right: 25%;
+    position: absolute;
+    bottom: 25%;
+    max-width: 120px;
+    -webkit-animation: animation-octopus 4s infinite;
+    animation: animation-octopus 4s infinite; }
 
 /** Import page  **/
 .boxmain {
@@ -911,9 +997,9 @@
   max-width: 530px;
   max-height: 733px;
   display: block;
-  margin: 50px auto;
+  margin: 0px auto 90px auto;
   background: url(../images/bg/box-main-bg.png) center center no-repeat;
-  height: 720px;
+  height: 760px;
   background-size: 100%;
   padding: 90px 55px; }
   .boxmain__form--icon {
@@ -958,71 +1044,78 @@
     .boxmain__form--input:focus, .boxmain__form--input:active {
       -webkit-box-shadow: 0px 1px 3px #e4e0ad;
       box-shadow: 0px 1px 3px #e4e0ad; }
+  .boxmain__form_captcha {
+    display: table;
+    width: 100%; }
+  .boxmain__form_button {
+    display: table;
+    width: 100%; }
   .boxmain__form--captcha {
     text-align: right;
-    max-width: 100%; }
+    display: table-cell;
+    max-width: 100%;
+    width: 30%; }
     .boxmain__form--captcha img {
       max-width: 100%;
       margin: auto;
-      margin-right: -10px; }
+      width: 100%;
+      border-radius: 5px; }
   .boxmain__form--captchatext {
     max-width: 100%;
-    float: left; }
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%; }
   .boxmain__form--reloadcaptcha {
     text-align: center;
+    vertical-align: middle;
     max-width: 15%;
-    float: left; }
+    width: 20%;
+    display: table-cell; }
     .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
       border: none;
       background: url("../images/bg/icon-reload.png") center center no-repeat;
       background-size: cover;
       height: 32px;
       width: 32px;
-      display: block;
-      margin-top: 5px;
       -webkit-transition: all 0.31s ease-in-out 0s;
       -o-transition: all 0.31s ease-in-out 0s;
-      transition: all 0.31s ease-in-out 0s; }
+      transition: all 0.31s ease-in-out 0s;
+      margin-top: -15px; }
       .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha input:hover, .boxmain__form--reloadcaptcha a:hover {
         cursor: pointer;
         -webkit-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
         transform: rotate(-360deg); }
-  .boxmain__form--button button,
-  .boxmain__form--button a,
-  .boxmain__form--button input[type="submit"] {
-    -webkit-transition: all 0.32s ease-in-out;
-    -o-transition: all 0.32s ease-in-out;
-    transition: all 0.32s ease-in-out;
-    -webkit-filter: grayscale(0.1);
-    filter: grayscale(0.1);
-    width: 100%;
-    height: 108px;
-    border: none; }
-  .boxmain__form--button:hover button,
-  .boxmain__form--button:hover a,
-  .boxmain__form--button:hover input[type="submit"] {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    cursor: pointer;
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0); }
-  .boxmain__form--button_signin {
-    text-align: center; }
-    .boxmain__form--button_signin button,
-    .boxmain__form--button_signin a,
-    .boxmain__form--button_signin input[type="submit"] {
-      background: url("../images/bg/btn-signin.png") center center no-repeat;
-      background-size: contain;
+  .boxmain__form--button {
+    display: table-cell;
+    width: 50%; }
+    .boxmain__form--button button, .boxmain__form--button a, .boxmain__form--button input[type="submit"] {
+      -webkit-transition: all 0.32s ease-in-out;
+      -o-transition: all 0.32s ease-in-out;
+      transition: all 0.32s ease-in-out;
+      -webkit-filter: grayscale(0.1);
+      filter: grayscale(0.1);
+      width: 100%;
+      height: 108px;
       border: none; }
-  .boxmain__form--button_signup {
-    text-align: center; }
-    .boxmain__form--button_signup button,
-    .boxmain__form--button_signup a,
-    .boxmain__form--button_signup input[type="submit"] {
-      background: url("../images/bg/btn-signup.png") center center no-repeat;
-      background-size: contain; }
+    .boxmain__form--button:hover button, .boxmain__form--button:hover a, .boxmain__form--button:hover input[type="submit"] {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      cursor: pointer;
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
+    .boxmain__form--button_signin {
+      text-align: center; }
+      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+        background: url("../images/bg/btn-signin.png") center center no-repeat;
+        background-size: contain;
+        border: none; }
+    .boxmain__form--button_signup {
+      text-align: center; }
+      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+        background: url("../images/bg/btn-signup.png") center center no-repeat;
+        background-size: contain; }
 
 .bgtranparent {
   position: fixed;
@@ -1048,8 +1141,9 @@
   background-size: cover;
   pointer-events: none;
   z-index: -1;
-  -webkit-animation-duration: 0.7s !important;
-  animation-duration: 0.7s !important; }
+  -webkit-animation: animation-coin 15s infinite;
+  animation: animation-coin 15s infinite;
+  opacity: 0.8; }
 
 /** Import responsive  **/
 /** Import layout  **/
@@ -1082,6 +1176,16 @@ header {
 .page_title {
   display: none; }
 
+.page_logo {
+  z-index: 21;
+  position: absolute;
+  margin: auto;
+  max-width: 130px;
+  right: 3%;
+  top: 3%;
+  -webkit-animation: animation-logo 6s infinite;
+  animation: animation-logo 6s infinite; }
+
 input:focus, input:active, button:focus, button:active, textarea:focus, textarea:active {
   outline: none; }
 
@@ -1092,9 +1196,16 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background: url(../images/bg/bg-body.jpg) center center no-repeat;
+    background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
     background-size: cover;
     overflow: hidden; }
+  .page_logo {
+    z-index: 21;
+    position: absolute;
+    margin: auto;
+    max-width: 100px;
+    left: calc(20% - 50px);
+    top: 5%; }
   .addon {
     z-index: 12;
     pointer-events: none; }
@@ -1104,6 +1215,8 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       left: 0%;
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      -webkit-animation: none;
+      animation: none;
       background-size: contain;
       height: 350px;
       width: 190px;
@@ -1122,84 +1235,58 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       position: fixed;
       top: calc(60% - 20px);
       max-width: 80px;
+      -webkit-animation: none;
+      animation: none;
       z-index: 12; }
     .addon__shark {
       left: 5%;
       position: fixed;
       top: 1%;
       max-width: 80px;
+      -webkit-animation: none;
+      animation: none;
       z-index: 12; }
     .addon__octopus {
       right: -10%;
       position: absolute;
       top: 5%;
       max-width: 85px;
+      -webkit-animation: none;
+      animation: none;
       z-index: 12; }
   .boxmain {
     background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
     background-size: contain;
-    padding: 25px 5px;
-    z-index: 20; }
+    padding: 150px 5px;
+    z-index: 20;
+    margin-bottom: 170px;
+    margin-top: 20px;
+    max-height: 560px; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 26px; }
+      height: 22px;
+      margin-bottom: 10px; }
     .boxmain__form--captcha {
-      text-align: right;
-      float: right;
-      display: inline-block;
-      width: 60%; }
-      .boxmain__form--captcha img {
-        max-width: 100%;
-        margin: auto; }
+      width: 50%; }
     .boxmain__form--reloadcaptcha {
       text-align: center;
-      width: 40%;
-      float: right;
-      display: inline-block; }
-      .boxmain__form--reloadcaptcha button,
-      .boxmain__form--reloadcaptcha input,
-      .boxmain__form--reloadcaptcha a {
-        margin: auto;
-        margin-top: 15px;
-        -webkit-transition: all 0.31s ease-in-out 0s;
-        -o-transition: all 0.31s ease-in-out 0s;
-        transition: all 0.31s ease-in-out 0s; }
-        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
-        .boxmain__form--reloadcaptcha input:hover,
-        .boxmain__form--reloadcaptcha input:focus,
-        .boxmain__form--reloadcaptcha input:active,
-        .boxmain__form--reloadcaptcha a:hover,
-        .boxmain__form--reloadcaptcha a:focus,
-        .boxmain__form--reloadcaptcha a:active {
-          cursor: pointer;
-          -webkit-transform: rotate(-360deg);
-          -ms-transform: rotate(-360deg);
-          transform: rotate(-360deg); }
+      width: 10%; }
+      .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
+        background-size: 75%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
-      .boxmain__form--button button,
-      .boxmain__form--button a,
-      .boxmain__form--button input[type="submit"] {
-        -webkit-transition: all 0.32s ease-in-out;
-        -o-transition: all 0.32s ease-in-out;
-        transition: all 0.32s ease-in-out;
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        width: 100%;
-        height: 70px;
-        margin-bottom: -30px;
-        display: block; }
-      .boxmain__form--button:hover button,
-      .boxmain__form--button:hover a,
-      .boxmain__form--button:hover input[type="submit"] {
-        cursor: pointer; } }
+      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+        background-size: contain;
+        border: none; }
+      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+        background-size: contain; } }
 
-@media only screen and (min-width: 320px) and (max-width: 390px) {
-  #wrapper {
-    overflow: hidden; }
+@media only screen and (min-width: 320px) and (max-width: 400px) {
   body {
     z-index: 0;
     margin: 0;
@@ -1209,6 +1296,13 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
     background-size: cover;
     overflow: auto; }
+  .page_logo {
+    z-index: 21;
+    position: absolute;
+    margin: auto;
+    max-width: 100px;
+    left: calc(20% - 50px);
+    top: 5%; }
   .addon {
     z-index: 12;
     pointer-events: none; }
@@ -1221,104 +1315,75 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       -webkit-animation: none;
       animation: none;
       background-size: contain;
-      height: 150px;
-      width: 150px;
+      height: 180px;
+      width: 180px;
       bottom: 0%;
       z-index: 13; }
     .addon__goldbottom {
       margin: auto;
       position: absolute;
-      left: calc(50% - 120px);
-      max-width: 245px;
+      left: calc(50% - 140px);
+      max-width: 330px;
       bottom: 0%;
       z-index: 12; }
     .addon__fish {
-      right: -2%;
+      right: -7%;
       position: absolute;
-      top: calc(60% - 20px);
-      max-width: 80px;
+      top: calc(50% - 20px);
+      max-width: 70px;
       -webkit-animation: none;
       animation: none;
       z-index: 12; }
     .addon__shark {
-      left: -1%;
+      left: 0%;
       position: absolute;
-      top: -1%;
-      max-width: 80px;
+      top: 1%;
+      max-width: 75px;
       -webkit-animation: none;
       animation: none;
       z-index: 12; }
     .addon__octopus {
-      right: -10%;
+      right: -8%;
       position: absolute;
-      top: 5%;
-      max-width: 85px;
+      top: 4%;
+      max-width: 75px;
       -webkit-animation: none;
       animation: none;
       z-index: 12; }
   .boxmain {
-    padding: 25px 35px;
     background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
     background-size: contain;
-    z-index: 12;
-    margin: 20px auto; }
+    padding: 70px 5px;
+    margin: 70px auto 0 auto;
+    height: 550px;
+    z-index: 20; }
+    .boxmain__form--icon {
+      width: 32px;
+      height: 32px; }
     .boxmain__form--input {
-      height: 26px; }
+      height: 22px;
+      margin-bottom: 10px; }
     .boxmain__form--captcha {
-      text-align: right;
-      float: right;
-      display: inline-block;
-      width: 60%; }
-      .boxmain__form--captcha img {
-        max-width: 100%;
-        margin: auto; }
+      width: 30%; }
+    .boxmain__form--captchatext {
+      width: 50%; }
     .boxmain__form--reloadcaptcha {
       text-align: center;
-      width: 40%;
-      float: right;
-      display: inline-block; }
-      .boxmain__form--reloadcaptcha button,
-      .boxmain__form--reloadcaptcha input,
-      .boxmain__form--reloadcaptcha a {
-        margin: auto;
-        margin-top: 5px;
-        -webkit-transition: all 0.31s ease-in-out 0s;
-        -o-transition: all 0.31s ease-in-out 0s;
-        transition: all 0.31s ease-in-out 0s; }
-        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
-        .boxmain__form--reloadcaptcha input:hover,
-        .boxmain__form--reloadcaptcha input:focus,
-        .boxmain__form--reloadcaptcha input:active,
-        .boxmain__form--reloadcaptcha a:hover,
-        .boxmain__form--reloadcaptcha a:focus,
-        .boxmain__form--reloadcaptcha a:active {
-          cursor: pointer;
-          -webkit-transform: rotate(-360deg);
-          -ms-transform: rotate(-360deg);
-          transform: rotate(-360deg); }
+      width: 20%; }
+      .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
+        background-size: 75%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
-      .boxmain__form--button button,
-      .boxmain__form--button a,
-      .boxmain__form--button input[type="submit"] {
-        -webkit-transition: all 0.32s ease-in-out;
-        -o-transition: all 0.32s ease-in-out;
-        transition: all 0.32s ease-in-out;
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        width: 100%;
-        height: 70px;
-        margin-bottom: -30px;
-        display: block; }
-      .boxmain__form--button:hover button,
-      .boxmain__form--button:hover a,
-      .boxmain__form--button:hover input[type="submit"] {
-        cursor: pointer; } }
+      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+        background-size: contain;
+        border: none; }
+      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+        background-size: contain; } }
 
-@media only screen and (min-width: 391px) and (max-width: 480px) {
-  #wrapper {
-    overflow: hidden; }
+@media only screen and (min-width: 401px) and (max-width: 540px) {
   body {
     z-index: 0;
     margin: 0;
@@ -1328,223 +1393,94 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
     background-size: cover;
     overflow: auto; }
+  .page_logo {
+    z-index: 21;
+    position: absolute;
+    margin: auto;
+    max-width: 100px;
+    left: calc(15% - 50px);
+    top: 5%; }
   .addon {
     z-index: 12;
     pointer-events: none; }
     .addon__thantai {
-      max-width: 195px;
+      max-width: 215px;
       position: fixed;
-      left: 0%;
+      left: -5%;
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      -webkit-animation: none;
+      animation: none;
       background-size: contain;
-      height: 350px;
-      width: 190px;
+      height: 210px;
+      width: 210px;
       bottom: 0%;
       z-index: 13; }
     .addon__goldbottom {
       margin: auto;
-      position: fixed;
-      left: calc(15%);
-      max-width: 325px;
-      bottom: 0%;
-      display: block;
+      position: absolute;
+      left: calc(50% - 140px);
+      max-width: 370px;
+      bottom: 4%;
       z-index: 12; }
     .addon__fish {
-      right: 0%;
-      position: fixed;
-      top: calc(60% - 20px);
-      max-width: 80px;
+      right: -5%;
+      position: absolute;
+      top: calc(40% - 20px);
+      max-width: 70px;
+      -webkit-animation: none;
+      animation: none;
       z-index: 12; }
     .addon__shark {
-      left: 5%;
-      position: fixed;
-      top: 1%;
-      max-width: 80px;
-      z-index: 12; }
-    .addon__octopus {
-      right: 10%;
+      left: -1%;
       position: absolute;
       top: 5%;
-      max-width: 85px;
-      z-index: 12; }
-  .boxmain {
-    padding: 25px 45px;
-    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
-    background-size: contain;
-    z-index: 20; }
-    .boxmain__form--icon {
-      width: 32px;
-      height: 32px; }
-    .boxmain__form--input {
-      height: 26px;
-      width: 80%; }
-    .boxmain__form--captcha {
-      text-align: left;
-      float: right;
-      display: inline-block;
-      width: 60%; }
-      .boxmain__form--captcha img {
-        max-width: 80%;
-        margin: auto; }
-    .boxmain__form--reloadcaptcha {
-      text-align: center;
-      width: 40%;
-      float: right;
-      display: inline-block; }
-      .boxmain__form--reloadcaptcha button,
-      .boxmain__form--reloadcaptcha input,
-      .boxmain__form--reloadcaptcha a {
-        margin: auto;
-        margin-top: 15px;
-        -webkit-transition: all 0.31s ease-in-out 0s;
-        -o-transition: all 0.31s ease-in-out 0s;
-        transition: all 0.31s ease-in-out 0s; }
-        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
-        .boxmain__form--reloadcaptcha input:hover,
-        .boxmain__form--reloadcaptcha input:focus,
-        .boxmain__form--reloadcaptcha input:active,
-        .boxmain__form--reloadcaptcha a:hover,
-        .boxmain__form--reloadcaptcha a:focus,
-        .boxmain__form--reloadcaptcha a:active {
-          cursor: pointer;
-          -webkit-transform: rotate(-360deg);
-          -ms-transform: rotate(-360deg);
-          transform: rotate(-360deg); }
-    .boxmain__form--button {
-      margin-top: 20px;
-      border: none; }
-      .boxmain__form--button button,
-      .boxmain__form--button a,
-      .boxmain__form--button input[type="submit"] {
-        -webkit-transition: all 0.32s ease-in-out;
-        -o-transition: all 0.32s ease-in-out;
-        transition: all 0.32s ease-in-out;
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        width: 100%;
-        height: 70px;
-        margin-bottom: -30px;
-        display: block; }
-      .boxmain__form--button:hover button,
-      .boxmain__form--button:hover a,
-      .boxmain__form--button:hover input[type="submit"] {
-        cursor: pointer; } }
-
-@media only screen and (min-width: 481px) and (max-width: 574px) {
-  body {
-    z-index: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100vh;
-    background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
-    background-size: cover;
-    overflow: hidden; }
-  .addon {
-    z-index: 12;
-    pointer-events: none; }
-    .addon__thantai {
-      max-width: 295px;
-      position: fixed;
-      left: -10%;
-      z-index: 12;
-      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
-      background-size: contain;
-      height: 350px;
-      width: 290px;
-      bottom: 0;
-      z-index: 12; }
-    .addon__goldbottom {
-      margin: auto;
-      position: fixed;
-      left: 15%;
-      max-width: 545px;
-      bottom: 0%;
-      display: block;
-      z-index: 5; }
-    .addon__fish {
-      right: -3%;
-      position: fixed;
-      top: calc(60% - 20px);
-      max-width: 100px;
-      z-index: 12; }
-    .addon__shark {
-      left: -5%;
-      position: fixed;
-      top: 1%;
-      max-width: 100px;
+      max-width: 75px;
+      -webkit-animation: none;
+      animation: none;
       z-index: 12; }
     .addon__octopus {
-      right: 10%;
+      right: -2%;
       position: absolute;
-      bottom: 5%;
-      max-width: 85px;
+      top: 5%;
+      max-width: 75px;
+      -webkit-animation: none;
+      animation: none;
       z-index: 12; }
   .boxmain {
-    padding: 85px 30px;
     background: url(../images/bg/box-main-bg.png) center center no-repeat;
     background-size: contain;
+    padding: 80px 5px;
+    margin: 45px auto 0 auto;
+    height: 620px;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 46px;
-      width: 100%; }
+      height: 22px;
+      margin-bottom: 10px; }
     .boxmain__form--captcha {
-      text-align: left;
-      float: right;
-      display: inline-block;
-      width: 100%; }
-      .boxmain__form--captcha img {
-        max-width: 100%;
-        margin: auto; }
+      width: 30%; }
+    .boxmain__form--captchatext {
+      width: 50%; }
     .boxmain__form--reloadcaptcha {
       text-align: center;
-      width: 40%;
-      float: right;
-      display: inline-block; }
-      .boxmain__form--reloadcaptcha button,
-      .boxmain__form--reloadcaptcha input,
-      .boxmain__form--reloadcaptcha a {
-        margin: auto;
-        margin-top: 15px;
-        -webkit-transition: all 0.31s ease-in-out 0s;
-        -o-transition: all 0.31s ease-in-out 0s;
-        transition: all 0.31s ease-in-out 0s; }
-        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
-        .boxmain__form--reloadcaptcha input:hover,
-        .boxmain__form--reloadcaptcha input:focus,
-        .boxmain__form--reloadcaptcha input:active,
-        .boxmain__form--reloadcaptcha a:hover,
-        .boxmain__form--reloadcaptcha a:focus,
-        .boxmain__form--reloadcaptcha a:active {
-          cursor: pointer;
-          -webkit-transform: rotate(-360deg);
-          -ms-transform: rotate(-360deg);
-          transform: rotate(-360deg); }
+      width: 20%; }
+      .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
+        background-size: 75%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
-      .boxmain__form--button button,
-      .boxmain__form--button a,
-      .boxmain__form--button input[type="submit"] {
-        -webkit-transition: all 0.32s ease-in-out;
-        -o-transition: all 0.32s ease-in-out;
-        transition: all 0.32s ease-in-out;
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        width: 100%;
-        height: 70px;
-        margin-bottom: -30px;
-        display: block; }
-      .boxmain__form--button:hover button,
-      .boxmain__form--button:hover a,
-      .boxmain__form--button:hover input[type="submit"] {
-        cursor: pointer; } }
+      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+        background-size: contain;
+        border: none; }
+      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+        background-size: contain; } }
 
-@media only screen and (min-width: 575px) and (max-width: 989px) {
+@media only screen and (min-width: 541px) and (max-width: 989px) {
   body {
     z-index: 0;
     margin: 0;
@@ -1554,124 +1490,82 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     background: url(../images/bg/bg-body.jpg) center center no-repeat;
     background-size: cover;
     overflow: hidden; }
+  .page_logo {
+    z-index: 21;
+    position: absolute;
+    margin: auto;
+    max-width: 100px;
+    right: 3%;
+    top: 3%; }
   .addon {
     z-index: 12;
     pointer-events: none; }
     .addon__thantai {
-      max-width: 295px;
+      max-width: 275px;
       position: fixed;
-      left: 5%;
+      left: 0%;
       z-index: 12;
-      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
-      background-size: contain;
-      height: 350px;
-      width: 290px;
-      bottom: 5%;
-      z-index: 15; }
+      height: 235px;
+      width: 235px;
+      bottom: 0%;
+      z-index: 13; }
     .addon__goldbottom {
       margin: auto;
       position: absolute;
-      left: calc(50% - 205px);
-      max-width: 485px;
-      bottom: 0%;
-      display: block;
+      left: calc(50% - 140px);
+      max-width: 370px;
+      bottom: 4%;
       z-index: 12; }
     .addon__fish {
-      right: -5%;
-      position: fixed;
-      bottom: calc(30% - 20px);
-      max-width: 190px;
-      z-index: 12;
-      -webkit-animation: animation-fish 4s infinite;
-      animation: animation-fish 4s infinite; }
+      right: 1%;
+      position: absolute;
+      top: calc(40% - 20px);
+      max-width: 175px;
+      z-index: 12; }
     .addon__shark {
-      left: -5%;
-      position: fixed;
-      top: -15%;
-      max-width: 190px;
+      left: 5%;
+      position: absolute;
+      top: 5%;
+      max-width: 175px;
       z-index: 12; }
     .addon__octopus {
-      right: 10%;
+      right: 12%;
       position: absolute;
-      bottom: 20%;
-      max-width: 135px;
+      bottom: 9%;
+      max-width: 110px;
       z-index: 12; }
   .boxmain {
-    padding: 65px 45px;
     background: url(../images/bg/box-main-bg.png) center center no-repeat;
     background-size: contain;
+    padding: 80px 35px;
+    margin: 45px auto 0 auto;
+    height: 620px;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 46px;
-      width: 100%; }
+      height: 22px;
+      margin-bottom: 10px; }
     .boxmain__form--captcha {
-      text-align: right;
-      float: right;
-      display: inline-block;
-      width: 100%; }
-      .boxmain__form--captcha img {
-        max-width: 100%;
-        margin: auto; }
+      width: 30%; }
+    .boxmain__form--captchatext {
+      width: 50%; }
     .boxmain__form--reloadcaptcha {
-      text-align: right;
-      width: 40%;
-      float: right;
-      display: inline-block; }
-      .boxmain__form--reloadcaptcha button,
-      .boxmain__form--reloadcaptcha input,
-      .boxmain__form--reloadcaptcha a {
-        margin: auto;
-        margin: 15px 0 auto auto;
-        -webkit-transition: all 0.31s ease-in-out 0s;
-        -o-transition: all 0.31s ease-in-out 0s;
-        transition: all 0.31s ease-in-out 0s; }
-        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
-        .boxmain__form--reloadcaptcha input:hover,
-        .boxmain__form--reloadcaptcha input:focus,
-        .boxmain__form--reloadcaptcha input:active,
-        .boxmain__form--reloadcaptcha a:hover,
-        .boxmain__form--reloadcaptcha a:focus,
-        .boxmain__form--reloadcaptcha a:active {
-          cursor: pointer;
-          -webkit-transform: rotate(-360deg);
-          -ms-transform: rotate(-360deg);
-          transform: rotate(-360deg); }
+      text-align: center;
+      width: 20%; }
+      .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
+        background-size: 75%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
-      .boxmain__form--button button,
-      .boxmain__form--button a,
-      .boxmain__form--button input[type="submit"] {
-        -webkit-transition: all 0.32s ease-in-out;
-        -o-transition: all 0.32s ease-in-out;
-        transition: all 0.32s ease-in-out;
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        width: 100%;
-        height: 100px;
-        margin-bottom: -30px; }
-      .boxmain__form--button:hover button,
-      .boxmain__form--button:hover a,
-      .boxmain__form--button:hover input[type="submit"] {
-        cursor: pointer; }
-      .boxmain__form--button_signin {
-        text-align: right;
-        margin-right: 0px; }
-        .boxmain__form--button_signin button,
-        .boxmain__form--button_signin a,
-        .boxmain__form--button_signin input[type="submit"] {
-          background-position: right; }
-      .boxmain__form--button_signup {
-        text-align: left;
-        margin-left: 0px; }
-        .boxmain__form--button_signup button,
-        .boxmain__form--button_signup a,
-        .boxmain__form--button_signup input[type="submit"] {
-          background: url("../images/bg/btn-signup.png") center center no-repeat;
-          background-size: contain; } }
+      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+        background: url("../images/bg/btn-signin.png") center center no-repeat;
+        background-size: contain;
+        border: none; }
+      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+        background: url("../images/bg/btn-signup.png") center center no-repeat;
+        background-size: contain; } }
 
 @media only screen and (min-width: 990px) and (max-width: 1200px) {
   body {
@@ -1683,6 +1577,13 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     background: url(../images/bg/bg-body.jpg) center center no-repeat;
     background-size: cover;
     overflow: hidden; }
+  .page_logo {
+    z-index: 21;
+    position: absolute;
+    margin: auto;
+    max-width: 130px;
+    right: 3%;
+    top: 3%; }
   .addon {
     z-index: 12;
     pointer-events: none; }

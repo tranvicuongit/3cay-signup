@@ -31,6 +31,15 @@ header {
 .page_title{
     display: none;
 }
+.page_logo{
+    z-index: 21;
+    position: absolute;
+    margin: auto;
+    max-width: 130px;
+    right: 3%;
+    top: 3%;
+    animation: animation-logo 6s infinite;
+}
 
 input, button, textarea {
     &:focus, &:active{

@@ -1,16 +1,17 @@
 .addon{
+    pointer-events: none;
     @include element("thantai"){
         max-width: 295px;
         position: fixed;
-        left: 10%;
+        left: 5%;
         z-index: 12;
         background: url("../images/bg/thantai.gif") center center no-repeat;
         //background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
         //animation: thantai 2000ms infinite;
         background-size: contain;
-        height: 350px;
-        width: 300px;
-        bottom: 5%;
+        height: 250px;
+        width: 250px;
+        bottom: 0%;
     }
     @include element("goldbottom"){
         margin: 0;
@@ -21,20 +22,20 @@
     }
     @include element("fish"){
         right: 5%;
-        position: fixed;
+        position: absolute;
         top: calc(50% - 125px);
         max-width: 250px;
-        animation: animation-fish 4s infinite;
+        animation: animation-fish 6s infinite;
     }
     @include element("shark"){
         left: 5%;
-        position: fixed;
+        position: absolute;
         top: 1%;
         max-width: 250px;
-        animation: animation-shark 4s infinite;
+        animation: animation-shark 6s infinite;
     }
     @include element("octopus"){
-        right: 30%;
+        right: 25%;
         position: absolute;
         bottom: 25%;
         max-width: 120px;
