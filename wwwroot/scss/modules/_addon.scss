@@ -16,8 +16,8 @@
         margin: 0;
         position: absolute;
         left: calc(50% - 275px);
-        max-width: 568px;
-        bottom: -1%;
+        max-width: 615px;
+        bottom: 0%;
     }
     @include element("fish"){
         right: 5%;
@@ -34,10 +34,10 @@
         animation: animation-shark 4s infinite;
     }
     @include element("octopus"){
-        right: 25%;
+        right: 30%;
         position: absolute;
-        bottom: 5%;
-        max-width: 150px;
+        bottom: 25%;
+        max-width: 120px;
         animation: animation-octopus 4s infinite;
     }
 }

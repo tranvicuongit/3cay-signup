@@ -880,8 +880,8 @@
   margin: 0;
   position: absolute;
   left: calc(50% - 275px);
-  max-width: 568px;
-  bottom: -1%; }
+  max-width: 615px;
+  bottom: 0%; }
 
 .addon__fish {
   right: 5%;
@@ -900,10 +900,10 @@
   animation: animation-shark 4s infinite; }
 
 .addon__octopus {
-  right: 25%;
+  right: 30%;
   position: absolute;
-  bottom: 5%;
-  max-width: 150px;
+  bottom: 25%;
+  max-width: 120px;
   -webkit-animation: animation-octopus 4s infinite;
   animation: animation-octopus 4s infinite; }
 
@@ -913,16 +913,16 @@
   max-width: 530px;
   max-height: 733px;
   display: block;
-  margin: 80px auto;
+  margin: 50px auto;
   background: url(../images/bg/box-main-bg.png) center center no-repeat;
-  height: 580px;
-  background-size: contain;
-  padding: 55px 65px; }
+  height: 720px;
+  background-size: 100%;
+  padding: 90px 55px; }
   .boxmain__form--icon {
     width: 32px;
     height: 32px;
     background-size: 50%;
-    margin-top: 10px;
+    margin-top: 12px;
     opacity: 0.6;
     position: absolute; }
     .boxmain__form--icon_user {
@@ -932,7 +932,7 @@
       background: url("../images/bg/icon-key.png") center center no-repeat;
       background-size: 50%; }
   .boxmain__form--input {
-    height: 46px;
+    height: 56px;
     width: 100%;
     margin-bottom: 25px;
     border: none;
@@ -1046,7 +1046,7 @@
   background: url("../images/bg/bg-coin.png") center center no-repeat;
   background-size: cover;
   pointer-events: none;
-  z-index: 1;
+  z-index: -1;
   -webkit-animation-duration: 0.7s !important;
   animation-duration: 0.7s !important; }
 
@@ -1719,7 +1719,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     .addon__octopus {
       right: calc(30% - 20px);
       position: absolute;
-      bottom: 5%;
+      bottom: 25%;
       max-width: 85px;
       z-index: 12; }
   .boxmain {
