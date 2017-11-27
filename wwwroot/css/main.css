@@ -1,0 +1,1810 @@
+/** Import variable  **/
+/** Import mixin  **/
+/** Import modules  **/
+@-webkit-keyframes animation-fish {
+  0% {
+    top: calc(50% - 0px); }
+  50% {
+    top: calc(50% - 125px); }
+  100% {
+    top: calc(50% - 0px); } }
+
+@-moz-keyframes animation-fish {
+  0% {
+    top: calc(50% - 0px); }
+  50% {
+    top: calc(50% - 125px); }
+  100% {
+    top: calc(50% - 0px); } }
+
+@-o-keyframes animation-fish {
+  0% {
+    top: calc(50% - 0px); }
+  50% {
+    top: calc(50% - 125px); }
+  100% {
+    top: calc(50% - 0px); } }
+
+@keyframes animation-fish {
+  0% {
+    top: calc(50% - 0px); }
+  50% {
+    top: calc(50% - 125px); }
+  100% {
+    top: calc(50% - 0px); } }
+
+@-webkit-keyframes animation-fish-mb {
+  0% {
+    bottom: calc(30% - 20px); }
+  50% {
+    bottom: calc(30% - 125px); }
+  100% {
+    bottom: calc(30% - 20px); } }
+
+@-moz-keyframes animation-fish-mb {
+  0% {
+    bottom: calc(30% - 20px); }
+  50% {
+    bottom: calc(30% - 125px); }
+  100% {
+    bottom: calc(30% - 20px); } }
+
+@-o-keyframes animation-fish-mb {
+  0% {
+    bottom: calc(30% - 20px); }
+  50% {
+    bottom: calc(30% - 125px); }
+  100% {
+    bottom: calc(30% - 20px); } }
+
+@keyframes animation-fish-mb {
+  0% {
+    bottom: calc(30% - 20px); }
+  50% {
+    bottom: calc(30% - 125px); }
+  100% {
+    bottom: calc(30% - 20px); } }
+
+@-webkit-keyframes animation-shark {
+  0% {
+    top: 1%; }
+  50% {
+    top: 10%; }
+  100% {
+    top: 1%; } }
+
+@-moz-keyframes animation-shark {
+  0% {
+    top: 1%; }
+  50% {
+    top: 10%; }
+  100% {
+    top: 1%; } }
+
+@-o-keyframes animation-shark {
+  0% {
+    top: 1%; }
+  50% {
+    top: 10%; }
+  100% {
+    top: 1%; } }
+
+@keyframes animation-shark {
+  0% {
+    top: 1%; }
+  50% {
+    top: 10%; }
+  100% {
+    top: 1%; } }
+
+@-webkit-keyframes animation-octopus {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@-moz-keyframes animation-octopus {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1); } }
+
+@-o-keyframes animation-octopus {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes animation-octopus {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes thantai {
+  0% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; }
+  1.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  3.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  5% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  6.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  8.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  10% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  11.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  13.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  15% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  16.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  18.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  20% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  21.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  23.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  25% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  26.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  28.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  30% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  31.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  33.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  35% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  36.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  38.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  40% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  41.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  43.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  45% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  46.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  50% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  51.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  53.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  55% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  56.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  58.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  60% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  61.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  63.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  65% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  66.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  68.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  70% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  71.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  73.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  75% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  76.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  78.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  80% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  81.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  83.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  85% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  86.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  88.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  90% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  91.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  93.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  95% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  96.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  98.33333% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  100% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; } }
+
+@-moz-keyframes thantai {
+  0% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; }
+  1.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  3.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  5% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  6.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  8.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  10% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  11.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  13.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  15% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  16.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  18.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  20% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  21.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  23.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  25% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  26.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  28.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  30% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  31.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  33.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  35% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  36.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  38.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  40% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  41.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  43.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  45% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  46.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  50% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  51.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  53.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  55% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  56.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  58.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  60% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  61.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  63.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  65% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  66.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  68.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  70% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  71.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  73.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  75% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  76.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  78.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  80% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  81.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  83.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  85% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  86.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  88.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  90% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  91.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  93.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  95% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  96.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  98.33333% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  100% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; } }
+
+@-o-keyframes thantai {
+  0% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; }
+  1.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  3.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  5% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  6.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  8.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  10% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  11.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  13.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  15% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  16.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  18.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  20% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  21.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  23.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  25% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  26.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  28.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  30% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  31.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  33.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  35% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  36.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  38.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  40% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  41.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  43.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  45% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  46.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  50% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  51.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  53.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  55% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  56.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  58.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  60% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  61.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  63.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  65% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  66.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  68.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  70% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  71.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  73.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  75% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  76.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  78.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  80% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  81.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  83.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  85% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  86.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  88.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  90% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  91.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  93.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  95% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  96.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  98.33333% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  100% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; } }
+
+@keyframes thantai {
+  0% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; }
+  1.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  3.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  5% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  6.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  8.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  10% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  11.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  13.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  15% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  16.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  18.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  20% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  21.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  23.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  25% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  26.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  28.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  30% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  31.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  33.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  35% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  36.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  38.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  40% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  41.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  43.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  45% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  46.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  50% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  51.66667% {
+    background: url("../images/bg/thantai/thantai-animation_1.png") center center no-repeat;
+    background-size: contain; }
+  53.33333% {
+    background: url("../images/bg/thantai/thantai-animation_2.png") center center no-repeat;
+    background-size: contain; }
+  55% {
+    background: url("../images/bg/thantai/thantai-animation_3.png") center center no-repeat;
+    background-size: contain; }
+  56.66667% {
+    background: url("../images/bg/thantai/thantai-animation_4.png") center center no-repeat;
+    background-size: contain; }
+  58.33333% {
+    background: url("../images/bg/thantai/thantai-animation_5.png") center center no-repeat;
+    background-size: contain; }
+  60% {
+    background: url("../images/bg/thantai/thantai-animation_6.png") center center no-repeat;
+    background-size: contain; }
+  61.66667% {
+    background: url("../images/bg/thantai/thantai-animation_7.png") center center no-repeat;
+    background-size: contain; }
+  63.33333% {
+    background: url("../images/bg/thantai/thantai-animation_8.png") center center no-repeat;
+    background-size: contain; }
+  65% {
+    background: url("../images/bg/thantai/thantai-animation_9.png") center center no-repeat;
+    background-size: contain; }
+  66.66667% {
+    background: url("../images/bg/thantai/thantai-animation_10.png") center center no-repeat;
+    background-size: contain; }
+  68.33333% {
+    background: url("../images/bg/thantai/thantai-animation_11.png") center center no-repeat;
+    background-size: contain; }
+  70% {
+    background: url("../images/bg/thantai/thantai-animation_12.png") center center no-repeat;
+    background-size: contain; }
+  71.66667% {
+    background: url("../images/bg/thantai/thantai-animation_13.png") center center no-repeat;
+    background-size: contain; }
+  73.33333% {
+    background: url("../images/bg/thantai/thantai-animation_14.png") center center no-repeat;
+    background-size: contain; }
+  75% {
+    background: url("../images/bg/thantai/thantai-animation_15.png") center center no-repeat;
+    background-size: contain; }
+  76.66667% {
+    background: url("../images/bg/thantai/thantai-animation_16.png") center center no-repeat;
+    background-size: contain; }
+  78.33333% {
+    background: url("../images/bg/thantai/thantai-animation_17.png") center center no-repeat;
+    background-size: contain; }
+  80% {
+    background: url("../images/bg/thantai/thantai-animation_18.png") center center no-repeat;
+    background-size: contain; }
+  81.66667% {
+    background: url("../images/bg/thantai/thantai-animation_19.png") center center no-repeat;
+    background-size: contain; }
+  83.33333% {
+    background: url("../images/bg/thantai/thantai-animation_20.png") center center no-repeat;
+    background-size: contain; }
+  85% {
+    background: url("../images/bg/thantai/thantai-animation_21.png") center center no-repeat;
+    background-size: contain; }
+  86.66667% {
+    background: url("../images/bg/thantai/thantai-animation_22.png") center center no-repeat;
+    background-size: contain; }
+  88.33333% {
+    background: url("../images/bg/thantai/thantai-animation_23.png") center center no-repeat;
+    background-size: contain; }
+  90% {
+    background: url("../images/bg/thantai/thantai-animation_24.png") center center no-repeat;
+    background-size: contain; }
+  91.66667% {
+    background: url("../images/bg/thantai/thantai-animation_25.png") center center no-repeat;
+    background-size: contain; }
+  93.33333% {
+    background: url("../images/bg/thantai/thantai-animation_26.png") center center no-repeat;
+    background-size: contain; }
+  95% {
+    background: url("../images/bg/thantai/thantai-animation_27.png") center center no-repeat;
+    background-size: contain; }
+  96.66667% {
+    background: url("../images/bg/thantai/thantai-animation_28.png") center center no-repeat;
+    background-size: contain; }
+  98.33333% {
+    background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat;
+    background-size: contain; }
+  100% {
+    background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+    background-size: contain; } }
+
+.addon__thantai {
+  max-width: 295px;
+  position: fixed;
+  left: 5%;
+  z-index: 12;
+  background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+  -webkit-animation: thantai 2000ms infinite;
+  animation: thantai 2000ms infinite;
+  background-size: contain;
+  height: 350px;
+  width: 300px;
+  bottom: 5%; }
+
+.addon__goldbottom {
+  margin: 0;
+  position: absolute;
+  left: calc(50% - 275px);
+  max-width: 568px;
+  bottom: -1%; }
+
+.addon__fish {
+  right: 5%;
+  position: fixed;
+  top: calc(50% - 125px);
+  max-width: 250px;
+  -webkit-animation: animation-fish 4s infinite;
+  animation: animation-fish 4s infinite; }
+
+.addon__shark {
+  left: 5%;
+  position: fixed;
+  top: 1%;
+  max-width: 250px;
+  -webkit-animation: animation-shark 4s infinite;
+  animation: animation-shark 4s infinite; }
+
+.addon__octopus {
+  right: 25%;
+  position: absolute;
+  bottom: 5%;
+  max-width: 150px;
+  -webkit-animation: animation-octopus 4s infinite;
+  animation: animation-octopus 4s infinite; }
+
+/** Import page  **/
+.boxmain {
+  z-index: 10;
+  max-width: 530px;
+  max-height: 733px;
+  display: block;
+  margin: 80px auto;
+  background: url(../images/bg/box-main-bg.png) center center no-repeat;
+  height: 580px;
+  background-size: contain;
+  padding: 55px 65px; }
+  .boxmain__form--icon {
+    width: 32px;
+    height: 32px;
+    background-size: 50%;
+    margin-top: 10px;
+    opacity: 0.6;
+    position: absolute; }
+    .boxmain__form--icon_user {
+      background: url("../images/bg/icon-user.png") center center no-repeat;
+      background-size: 50%; }
+    .boxmain__form--icon_key {
+      background: url("../images/bg/icon-key.png") center center no-repeat;
+      background-size: 50%; }
+  .boxmain__form--input {
+    height: 46px;
+    width: 100%;
+    margin-bottom: 25px;
+    border: none;
+    border-top: 3px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    padding: 20px 10px 20px 30px;
+    border-radius: 4px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-box-shadow: 0px 1px 5px #151515;
+    box-shadow: 0px 1px 5px #151515;
+    -webkit-transition: all 0.31s ease-in-out;
+    -o-transition: all 0.31s ease-in-out;
+    transition: all 0.31s ease-in-out; }
+    .boxmain__form--input::-webkit-input-placeholder {
+      color: #7f7f7f; }
+    .boxmain__form--input::-moz-placeholder {
+      color: #7f7f7f; }
+    .boxmain__form--input:-ms-input-placeholder {
+      color: #7f7f7f; }
+    .boxmain__form--input:-moz-placeholder {
+      color: #7f7f7f; }
+    .boxmain__form--input:focus, .boxmain__form--input:active {
+      -webkit-box-shadow: 0px 1px 3px #e4e0ad;
+      box-shadow: 0px 1px 3px #e4e0ad; }
+  .boxmain__form--captcha {
+    text-align: right; }
+    .boxmain__form--captcha img {
+      max-width: 100%;
+      margin: auto; }
+  .boxmain__form--reloadcaptcha {
+    text-align: center; }
+    .boxmain__form--reloadcaptcha button,
+    .boxmain__form--reloadcaptcha input,
+    .boxmain__form--reloadcaptcha a {
+      border: none;
+      background: url("../images/bg/icon-reload.png") center center no-repeat;
+      background-size: cover;
+      height: 32px;
+      width: 32px;
+      display: block;
+      margin-top: 5px;
+      -webkit-transition: all 0.31s ease-in-out 0s;
+      -o-transition: all 0.31s ease-in-out 0s;
+      transition: all 0.31s ease-in-out 0s; }
+      .boxmain__form--reloadcaptcha button:hover,
+      .boxmain__form--reloadcaptcha input:hover,
+      .boxmain__form--reloadcaptcha a:hover {
+        cursor: pointer;
+        -webkit-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg); }
+  .boxmain__form--button button,
+  .boxmain__form--button a,
+  .boxmain__form--button input[type="submit"] {
+    -webkit-transition: all 0.32s ease-in-out;
+    -o-transition: all 0.32s ease-in-out;
+    transition: all 0.32s ease-in-out;
+    -webkit-filter: grayscale(0.1);
+    filter: grayscale(0.1);
+    width: 100%;
+    height: 108px;
+    border: none; }
+  .boxmain__form--button:hover button,
+  .boxmain__form--button:hover a,
+  .boxmain__form--button:hover input[type="submit"] {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+  .boxmain__form--button_signin {
+    text-align: center; }
+    .boxmain__form--button_signin button,
+    .boxmain__form--button_signin a,
+    .boxmain__form--button_signin input[type="submit"] {
+      background: url("../images/bg/btn-signin.png") center center no-repeat;
+      background-size: contain;
+      border: none; }
+  .boxmain__form--button_signup {
+    text-align: center; }
+    .boxmain__form--button_signup button,
+    .boxmain__form--button_signup a,
+    .boxmain__form--button_signup input[type="submit"] {
+      background: url("../images/bg/btn-signup.png") center center no-repeat;
+      background-size: contain; }
+
+.bgtranparent {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../images/bg/bg-tranparent.png") center center no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+  -webkit-animation-duration: 0.5s !important;
+  animation-duration: 0.5s !important; }
+
+.bgcoin {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../images/bg/bg-coin.png") center center no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  z-index: 1;
+  -webkit-animation-duration: 0.7s !important;
+  animation-duration: 0.7s !important; }
+
+/** Import responsive  **/
+/** Import layout  **/
+#wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 100vh; }
+
+body {
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: url("../images/bg/bg-body.jpg") center center no-repeat;
+  background-size: cover; }
+
+.main {
+  min-height: 100vh; }
+
+header {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+.page_title {
+  display: none; }
+
+input:focus, input:active, button:focus, button:active, textarea:focus, textarea:active {
+  outline: none; }
+
+@media only screen and (max-width: 319px) {
+  body {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg/bg-body.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden; }
+  .addon {
+    z-index: 12;
+    pointer-events: none; }
+    .addon__thantai {
+      max-width: 195px;
+      position: fixed;
+      left: 0%;
+      z-index: 12;
+      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      background-size: contain;
+      height: 350px;
+      width: 190px;
+      bottom: 0%;
+      z-index: 12; }
+    .addon__goldbottom {
+      margin: auto;
+      position: fixed;
+      left: calc(0%);
+      max-width: 345px;
+      bottom: 0%;
+      display: block;
+      z-index: 12; }
+    .addon__fish {
+      right: 0%;
+      position: fixed;
+      top: calc(60% - 20px);
+      max-width: 80px;
+      z-index: 12; }
+    .addon__shark {
+      left: 5%;
+      position: fixed;
+      top: 1%;
+      max-width: 80px;
+      z-index: 12; }
+    .addon__octopus {
+      right: -10%;
+      position: absolute;
+      top: 5%;
+      max-width: 85px;
+      z-index: 12; }
+  .boxmain {
+    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    background-size: contain;
+    padding: 25px 5px;
+    z-index: 20; }
+    .boxmain__form--icon {
+      width: 32px;
+      height: 32px; }
+    .boxmain__form--input {
+      height: 26px; }
+    .boxmain__form--captcha {
+      text-align: right;
+      float: right;
+      display: inline-block;
+      width: 60%; }
+      .boxmain__form--captcha img {
+        max-width: 100%;
+        margin: auto; }
+    .boxmain__form--reloadcaptcha {
+      text-align: center;
+      width: 40%;
+      float: right;
+      display: inline-block; }
+      .boxmain__form--reloadcaptcha button,
+      .boxmain__form--reloadcaptcha input,
+      .boxmain__form--reloadcaptcha a {
+        margin: auto;
+        margin-top: 15px;
+        -webkit-transition: all 0.31s ease-in-out 0s;
+        -o-transition: all 0.31s ease-in-out 0s;
+        transition: all 0.31s ease-in-out 0s; }
+        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
+        .boxmain__form--reloadcaptcha input:hover,
+        .boxmain__form--reloadcaptcha input:focus,
+        .boxmain__form--reloadcaptcha input:active,
+        .boxmain__form--reloadcaptcha a:hover,
+        .boxmain__form--reloadcaptcha a:focus,
+        .boxmain__form--reloadcaptcha a:active {
+          cursor: pointer;
+          -webkit-transform: rotate(-360deg);
+          -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+    .boxmain__form--button {
+      margin-top: 20px;
+      border: none; }
+      .boxmain__form--button button,
+      .boxmain__form--button a,
+      .boxmain__form--button input[type="submit"] {
+        -webkit-transition: all 0.32s ease-in-out;
+        -o-transition: all 0.32s ease-in-out;
+        transition: all 0.32s ease-in-out;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        width: 100%;
+        height: 70px;
+        margin-bottom: -30px;
+        display: block; }
+      .boxmain__form--button:hover button,
+      .boxmain__form--button:hover a,
+      .boxmain__form--button:hover input[type="submit"] {
+        cursor: pointer; } }
+
+@media only screen and (min-width: 320px) and (max-width: 390px) {
+  #wrapper {
+    overflow: hidden; }
+  body {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: auto; }
+  .addon {
+    z-index: 12;
+    pointer-events: none; }
+    .addon__thantai {
+      max-width: 215px;
+      position: fixed;
+      left: -5%;
+      z-index: 12;
+      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      background-size: contain;
+      height: 150px;
+      width: 150px;
+      bottom: 0%;
+      z-index: 13; }
+    .addon__goldbottom {
+      margin: auto;
+      position: absolute;
+      left: calc(50% - 120px);
+      max-width: 245px;
+      bottom: 0%;
+      z-index: 12; }
+    .addon__fish {
+      right: -2%;
+      position: absolute;
+      top: calc(60% - 20px);
+      max-width: 80px;
+      -webkit-animation: none;
+      animation: none;
+      z-index: 12; }
+    .addon__shark {
+      left: -1%;
+      position: absolute;
+      top: -1%;
+      max-width: 80px;
+      -webkit-animation: none;
+      animation: none;
+      z-index: 12; }
+    .addon__octopus {
+      right: -10%;
+      position: absolute;
+      top: 5%;
+      max-width: 85px;
+      -webkit-animation: none;
+      animation: none;
+      z-index: 12; }
+  .boxmain {
+    padding: 25px 35px;
+    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    background-size: contain;
+    z-index: 12;
+    margin: 20px auto; }
+    .boxmain__form--input {
+      height: 26px; }
+    .boxmain__form--captcha {
+      text-align: right;
+      float: right;
+      display: inline-block;
+      width: 60%; }
+      .boxmain__form--captcha img {
+        max-width: 100%;
+        margin: auto; }
+    .boxmain__form--reloadcaptcha {
+      text-align: center;
+      width: 40%;
+      float: right;
+      display: inline-block; }
+      .boxmain__form--reloadcaptcha button,
+      .boxmain__form--reloadcaptcha input,
+      .boxmain__form--reloadcaptcha a {
+        margin: auto;
+        margin-top: 5px;
+        -webkit-transition: all 0.31s ease-in-out 0s;
+        -o-transition: all 0.31s ease-in-out 0s;
+        transition: all 0.31s ease-in-out 0s; }
+        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
+        .boxmain__form--reloadcaptcha input:hover,
+        .boxmain__form--reloadcaptcha input:focus,
+        .boxmain__form--reloadcaptcha input:active,
+        .boxmain__form--reloadcaptcha a:hover,
+        .boxmain__form--reloadcaptcha a:focus,
+        .boxmain__form--reloadcaptcha a:active {
+          cursor: pointer;
+          -webkit-transform: rotate(-360deg);
+          -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+    .boxmain__form--button {
+      margin-top: 20px;
+      border: none; }
+      .boxmain__form--button button,
+      .boxmain__form--button a,
+      .boxmain__form--button input[type="submit"] {
+        -webkit-transition: all 0.32s ease-in-out;
+        -o-transition: all 0.32s ease-in-out;
+        transition: all 0.32s ease-in-out;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        width: 100%;
+        height: 70px;
+        margin-bottom: -30px;
+        display: block; }
+      .boxmain__form--button:hover button,
+      .boxmain__form--button:hover a,
+      .boxmain__form--button:hover input[type="submit"] {
+        cursor: pointer; } }
+
+@media only screen and (min-width: 391px) and (max-width: 480px) {
+  #wrapper {
+    overflow: hidden; }
+  body {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: auto; }
+  .addon {
+    z-index: 12;
+    pointer-events: none; }
+    .addon__thantai {
+      max-width: 195px;
+      position: fixed;
+      left: 0%;
+      z-index: 12;
+      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      background-size: contain;
+      height: 350px;
+      width: 190px;
+      bottom: 0%;
+      z-index: 13; }
+    .addon__goldbottom {
+      margin: auto;
+      position: fixed;
+      left: calc(15%);
+      max-width: 325px;
+      bottom: 0%;
+      display: block;
+      z-index: 12; }
+    .addon__fish {
+      right: 0%;
+      position: fixed;
+      top: calc(60% - 20px);
+      max-width: 80px;
+      z-index: 12; }
+    .addon__shark {
+      left: 5%;
+      position: fixed;
+      top: 1%;
+      max-width: 80px;
+      z-index: 12; }
+    .addon__octopus {
+      right: 10%;
+      position: absolute;
+      top: 5%;
+      max-width: 85px;
+      z-index: 12; }
+  .boxmain {
+    padding: 25px 45px;
+    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    background-size: contain;
+    z-index: 20; }
+    .boxmain__form--icon {
+      width: 32px;
+      height: 32px; }
+    .boxmain__form--input {
+      height: 26px;
+      width: 80%; }
+    .boxmain__form--captcha {
+      text-align: left;
+      float: right;
+      display: inline-block;
+      width: 60%; }
+      .boxmain__form--captcha img {
+        max-width: 80%;
+        margin: auto; }
+    .boxmain__form--reloadcaptcha {
+      text-align: center;
+      width: 40%;
+      float: right;
+      display: inline-block; }
+      .boxmain__form--reloadcaptcha button,
+      .boxmain__form--reloadcaptcha input,
+      .boxmain__form--reloadcaptcha a {
+        margin: auto;
+        margin-top: 15px;
+        -webkit-transition: all 0.31s ease-in-out 0s;
+        -o-transition: all 0.31s ease-in-out 0s;
+        transition: all 0.31s ease-in-out 0s; }
+        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
+        .boxmain__form--reloadcaptcha input:hover,
+        .boxmain__form--reloadcaptcha input:focus,
+        .boxmain__form--reloadcaptcha input:active,
+        .boxmain__form--reloadcaptcha a:hover,
+        .boxmain__form--reloadcaptcha a:focus,
+        .boxmain__form--reloadcaptcha a:active {
+          cursor: pointer;
+          -webkit-transform: rotate(-360deg);
+          -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+    .boxmain__form--button {
+      margin-top: 20px;
+      border: none; }
+      .boxmain__form--button button,
+      .boxmain__form--button a,
+      .boxmain__form--button input[type="submit"] {
+        -webkit-transition: all 0.32s ease-in-out;
+        -o-transition: all 0.32s ease-in-out;
+        transition: all 0.32s ease-in-out;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        width: 100%;
+        height: 70px;
+        margin-bottom: -30px;
+        display: block; }
+      .boxmain__form--button:hover button,
+      .boxmain__form--button:hover a,
+      .boxmain__form--button:hover input[type="submit"] {
+        cursor: pointer; } }
+
+@media only screen and (min-width: 481px) and (max-width: 574px) {
+  body {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden; }
+  .addon {
+    z-index: 12;
+    pointer-events: none; }
+    .addon__thantai {
+      max-width: 195px;
+      position: fixed;
+      left: 0%;
+      z-index: 12;
+      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      background-size: contain;
+      height: 350px;
+      width: 190px;
+      bottom: 0%;
+      z-index: 12; }
+    .addon__goldbottom {
+      margin: auto;
+      position: fixed;
+      left: calc(15%);
+      max-width: 345px;
+      bottom: 0%;
+      display: block;
+      z-index: 5; }
+    .addon__fish {
+      right: 0%;
+      position: fixed;
+      top: calc(60% - 20px);
+      max-width: 80px;
+      z-index: 12; }
+    .addon__shark {
+      left: 5%;
+      position: fixed;
+      top: 1%;
+      max-width: 80px;
+      z-index: 12; }
+    .addon__octopus {
+      right: 10%;
+      position: absolute;
+      bottom: 5%;
+      max-width: 85px;
+      z-index: 12; }
+  .boxmain {
+    padding: 25px 90px;
+    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    background-size: contain;
+    z-index: 20; }
+    .boxmain__form--icon {
+      width: 32px;
+      height: 32px; }
+    .boxmain__form--input {
+      height: 26px;
+      width: 80%; }
+    .boxmain__form--captcha {
+      text-align: left;
+      float: right;
+      display: inline-block;
+      width: 60%; }
+      .boxmain__form--captcha img {
+        max-width: 80%;
+        margin: auto; }
+    .boxmain__form--reloadcaptcha {
+      text-align: center;
+      width: 40%;
+      float: right;
+      display: inline-block; }
+      .boxmain__form--reloadcaptcha button,
+      .boxmain__form--reloadcaptcha input,
+      .boxmain__form--reloadcaptcha a {
+        margin: auto;
+        margin-top: 15px;
+        -webkit-transition: all 0.31s ease-in-out 0s;
+        -o-transition: all 0.31s ease-in-out 0s;
+        transition: all 0.31s ease-in-out 0s; }
+        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
+        .boxmain__form--reloadcaptcha input:hover,
+        .boxmain__form--reloadcaptcha input:focus,
+        .boxmain__form--reloadcaptcha input:active,
+        .boxmain__form--reloadcaptcha a:hover,
+        .boxmain__form--reloadcaptcha a:focus,
+        .boxmain__form--reloadcaptcha a:active {
+          cursor: pointer;
+          -webkit-transform: rotate(-360deg);
+          -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+    .boxmain__form--button {
+      margin-top: 20px;
+      border: none; }
+      .boxmain__form--button button,
+      .boxmain__form--button a,
+      .boxmain__form--button input[type="submit"] {
+        -webkit-transition: all 0.32s ease-in-out;
+        -o-transition: all 0.32s ease-in-out;
+        transition: all 0.32s ease-in-out;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        width: 100%;
+        height: 70px;
+        margin-bottom: -30px;
+        display: block; }
+      .boxmain__form--button:hover button,
+      .boxmain__form--button:hover a,
+      .boxmain__form--button:hover input[type="submit"] {
+        cursor: pointer; } }
+
+@media only screen and (min-width: 575px) and (max-width: 989px) {
+  body {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg/bg-body.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden; }
+  .addon {
+    z-index: 12;
+    pointer-events: none; }
+    .addon__thantai {
+      max-width: 195px;
+      position: fixed;
+      left: 0%;
+      z-index: 12;
+      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      background-size: contain;
+      height: 350px;
+      width: 190px;
+      bottom: 5%;
+      z-index: 15; }
+    .addon__goldbottom {
+      margin: auto;
+      position: absolute;
+      left: calc(50% - 175px);
+      max-width: 345px;
+      bottom: 0%;
+      display: block;
+      z-index: 12; }
+    .addon__fish {
+      right: 0%;
+      position: fixed;
+      bottom: calc(30% - 20px);
+      max-width: 120px;
+      z-index: 12;
+      -webkit-animation: animation-fish 4s infinite;
+      animation: animation-fish 4s infinite; }
+    .addon__shark {
+      left: 5%;
+      position: fixed;
+      top: 1%;
+      max-width: 120px;
+      z-index: 12; }
+    .addon__octopus {
+      right: 10%;
+      position: absolute;
+      bottom: 5%;
+      max-width: 85px;
+      z-index: 12; }
+  .boxmain {
+    padding: 25px 45px;
+    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    background-size: contain;
+    z-index: 20; }
+    .boxmain__form--icon {
+      width: 32px;
+      height: 32px; }
+    .boxmain__form--input {
+      height: 26px;
+      width: 60%; }
+    .boxmain__form--captcha {
+      text-align: left;
+      float: right;
+      display: inline-block;
+      width: 60%; }
+      .boxmain__form--captcha img {
+        max-width: 80%;
+        margin: auto; }
+    .boxmain__form--reloadcaptcha {
+      text-align: right;
+      width: 40%;
+      float: right;
+      display: inline-block; }
+      .boxmain__form--reloadcaptcha button,
+      .boxmain__form--reloadcaptcha input,
+      .boxmain__form--reloadcaptcha a {
+        margin: auto;
+        margin: 15px 0 auto auto;
+        -webkit-transition: all 0.31s ease-in-out 0s;
+        -o-transition: all 0.31s ease-in-out 0s;
+        transition: all 0.31s ease-in-out 0s; }
+        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
+        .boxmain__form--reloadcaptcha input:hover,
+        .boxmain__form--reloadcaptcha input:focus,
+        .boxmain__form--reloadcaptcha input:active,
+        .boxmain__form--reloadcaptcha a:hover,
+        .boxmain__form--reloadcaptcha a:focus,
+        .boxmain__form--reloadcaptcha a:active {
+          cursor: pointer;
+          -webkit-transform: rotate(-360deg);
+          -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+    .boxmain__form--button {
+      margin-top: 20px;
+      border: none; }
+      .boxmain__form--button button,
+      .boxmain__form--button a,
+      .boxmain__form--button input[type="submit"] {
+        -webkit-transition: all 0.32s ease-in-out;
+        -o-transition: all 0.32s ease-in-out;
+        transition: all 0.32s ease-in-out;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        width: 70%;
+        height: 70px;
+        margin-bottom: -30px; }
+      .boxmain__form--button:hover button,
+      .boxmain__form--button:hover a,
+      .boxmain__form--button:hover input[type="submit"] {
+        cursor: pointer; }
+      .boxmain__form--button_signin {
+        text-align: right;
+        margin-right: -20px; }
+        .boxmain__form--button_signin button,
+        .boxmain__form--button_signin a,
+        .boxmain__form--button_signin input[type="submit"] {
+          background-position: right; }
+      .boxmain__form--button_signup {
+        text-align: left;
+        margin-left: -20px; }
+        .boxmain__form--button_signup button,
+        .boxmain__form--button_signup a,
+        .boxmain__form--button_signup input[type="submit"] {
+          background: url("../images/bg/btn-signup.png") center center no-repeat;
+          background-size: contain; } }
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  body {
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg/bg-body.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden; }
+  .addon {
+    z-index: 12;
+    pointer-events: none; }
+    .addon__thantai {
+      max-width: 195px;
+      position: fixed;
+      left: 0%;
+      z-index: 12;
+      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      background-size: contain;
+      height: 350px;
+      width: 190px;
+      bottom: 5%;
+      z-index: 15; }
+    .addon__goldbottom {
+      margin: auto;
+      position: absolute;
+      left: calc(50% - 175px);
+      max-width: 345px;
+      bottom: 0%;
+      display: block;
+      z-index: 12; }
+    .addon__fish {
+      right: 0%;
+      position: fixed;
+      bottom: calc(30% - 20px);
+      max-width: 180px;
+      z-index: 12;
+      -webkit-animation: animation-fish 4s infinite;
+      animation: animation-fish 4s infinite; }
+    .addon__shark {
+      left: 5%;
+      position: fixed;
+      top: 1%;
+      max-width: 180px;
+      z-index: 12; }
+    .addon__octopus {
+      right: calc(30% - 20px);
+      position: absolute;
+      bottom: 5%;
+      max-width: 85px;
+      z-index: 12; }
+  .boxmain {
+    padding: 25px 45px;
+    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    background-size: contain;
+    z-index: 20; }
+    .boxmain__form--icon {
+      width: 32px;
+      height: 32px; }
+    .boxmain__form--input {
+      height: 26px;
+      width: 60%; }
+    .boxmain__form--captcha {
+      text-align: left;
+      float: right;
+      display: inline-block;
+      width: 60%; }
+      .boxmain__form--captcha img {
+        max-width: 70%;
+        margin-left: -45px;
+        margin-top: 3px; }
+    .boxmain__form--captchatext {
+      text-align: right;
+      float: right;
+      display: inline-block;
+      width: 95%; }
+      .boxmain__form--captchatext input {
+        max-width: 80%;
+        margin: auto; }
+    .boxmain__form--reloadcaptcha {
+      text-align: left;
+      width: 40%;
+      float: right;
+      display: inline-block; }
+      .boxmain__form--reloadcaptcha button,
+      .boxmain__form--reloadcaptcha input,
+      .boxmain__form--reloadcaptcha a {
+        margin: 5px 0 auto -15px;
+        -webkit-transition: all 0.31s ease-in-out 0s;
+        -o-transition: all 0.31s ease-in-out 0s;
+        transition: all 0.31s ease-in-out 0s; }
+        .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha button:focus, .boxmain__form--reloadcaptcha button:active,
+        .boxmain__form--reloadcaptcha input:hover,
+        .boxmain__form--reloadcaptcha input:focus,
+        .boxmain__form--reloadcaptcha input:active,
+        .boxmain__form--reloadcaptcha a:hover,
+        .boxmain__form--reloadcaptcha a:focus,
+        .boxmain__form--reloadcaptcha a:active {
+          cursor: pointer;
+          -webkit-transform: rotate(-360deg);
+          -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg); }
+    .boxmain__form--button {
+      margin-top: 20px;
+      border: none; }
+      .boxmain__form--button button,
+      .boxmain__form--button a,
+      .boxmain__form--button input[type="submit"] {
+        -webkit-transition: all 0.32s ease-in-out;
+        -o-transition: all 0.32s ease-in-out;
+        transition: all 0.32s ease-in-out;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        width: 70%;
+        height: 70px;
+        margin-bottom: -30px; }
+      .boxmain__form--button:hover button,
+      .boxmain__form--button:hover a,
+      .boxmain__form--button:hover input[type="submit"] {
+        cursor: pointer; }
+      .boxmain__form--button_signin {
+        text-align: right;
+        margin-right: -20px; }
+        .boxmain__form--button_signin button,
+        .boxmain__form--button_signin a,
+        .boxmain__form--button_signin input[type="submit"] {
+          background-position: right; }
+      .boxmain__form--button_signup {
+        text-align: left;
+        margin-left: -20px; }
+        .boxmain__form--button_signup button,
+        .boxmain__form--button_signup a,
+        .boxmain__form--button_signup input[type="submit"] {
+          background: url("../images/bg/btn-signup.png") center center no-repeat;
+          background-size: contain; } }
+
+/** Import partials  **/

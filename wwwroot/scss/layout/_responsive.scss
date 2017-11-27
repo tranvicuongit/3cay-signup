@@ -1,0 +1,826 @@
+@media only screen and (max-width : 319px) {
+    body {
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../images/bg/bg-body.jpg) center center no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .addon{
+        z-index: 12;
+        pointer-events: none;
+        @include element("thantai"){
+            max-width: 195px;
+            position: fixed;
+            left: 0%;
+            z-index: 12;
+            //background: url("../images/bg/thantai.gif") center center no-repeat;
+            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            //animation: none;
+            background-size: contain;
+            height: 350px;
+            width: 190px;
+            bottom: 0%;
+            z-index: 12;
+        }
+        @include element("goldbottom"){
+            margin: auto;
+            position: fixed;
+            left: calc(0%);
+            max-width: 345px;
+            bottom: 0%;
+            display: block;
+            z-index: 12;
+        }
+        @include element("fish"){
+            right: 0%;
+            position: fixed;
+            top: calc(60% - 20px);
+            max-width: 80px;
+            //animation: none;
+            z-index: 12;
+        }
+        @include element("shark"){
+            left: 5%;
+            position: fixed;
+            top: 1%;
+            max-width: 80px;
+            //animation: none;
+            z-index: 12;
+        }
+        @include element("octopus"){
+            right: -10%;
+            position: absolute;
+            top: 5%;
+            max-width: 85px;
+            //animation: none;
+            z-index: 12;
+        }
+    }
+
+    .boxmain {
+        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background-size: contain;
+        padding: 25px 5px;
+        z-index: 20;
+        
+        @include element("form") {
+            @include modifier("icon") {
+                width: 32px;
+                height: 32px;
+            }
+            @include modifier("input") {
+                height: 26px;
+            }
+            @include modifier("captcha") {
+                text-align: right;
+                float: right;
+                display: inline-block;
+                width: 60%;
+                img {
+                    max-width: 100%;
+                    margin: auto;
+                }
+            }
+            @include modifier("reloadcaptcha") {
+                text-align: center;
+                width: 40%;
+                float: right;
+                display: inline-block;
+
+                button,
+                input,
+                a {
+                    margin: auto;
+                    margin-top: 15px;
+                    transition: all 0.31s ease-in-out 0s;
+                    &:hover, &:focus, &:active {
+                        cursor: pointer;
+                        transform: rotate(-360deg);
+                    }
+                }
+            }
+            @include modifier("button") {
+                margin-top: 20px;
+                border: none;
+                button,
+                a,
+                input[type="submit"] {
+                    transition: all 0.32s ease-in-out;
+                    filter: grayscale(0);
+                    width: 100%;
+                    height: 70px;
+                    margin-bottom: -30px;
+                    display: block;
+                }
+                &:hover {
+                    button,
+                    a,
+                    input[type="submit"] {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width : 390px) {
+    #wrapper{
+        overflow: hidden;
+    }
+    body {
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+        background-size: cover;
+        overflow: auto;
+    }
+    .addon{
+        z-index: 12;
+        pointer-events: none;
+        @include element("thantai"){
+            max-width: 215px;
+            position: fixed;
+            left: -5%;
+            z-index: 12;
+            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            background-size: contain;
+            height: 150px;
+            width: 150px;
+            bottom: 0%;
+            z-index: 13;
+        }
+        @include element("goldbottom"){
+            margin: auto;
+            position: absolute;
+            left: calc(50% - 120px);
+            max-width: 245px;
+            bottom: 0%;
+            z-index: 12;
+        }
+        @include element("fish"){
+            right: -2%;
+            position: absolute;
+            top: calc(60% - 20px);
+            max-width: 80px;
+            animation: none;
+            z-index: 12;
+        }
+        @include element("shark"){
+            left: -1%;
+            position: absolute;
+            top: -1%;
+            max-width: 80px;
+            animation: none;
+            z-index: 12;
+        }
+        @include element("octopus"){
+            right: -10%;
+            position: absolute;
+            top: 5%;
+            max-width: 85px;
+            animation: none;
+            z-index: 12;
+        }
+    }
+
+    .boxmain {
+        padding: 25px 35px;
+        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background-size: contain;
+        z-index: 12;
+        margin: 20px auto;
+        
+        @include element("form") {
+            @include modifier("input") {
+                height: 26px;
+            }
+            @include modifier("captcha") {
+                text-align: right;
+                float: right;
+                display: inline-block;
+                width: 60%;
+                img {
+                    max-width: 100%;
+                    margin: auto;
+                }
+            }
+            @include modifier("reloadcaptcha") {
+                text-align: center;
+                width: 40%;
+                float: right;
+                display: inline-block;
+
+                button,
+                input,
+                a {
+                    margin: auto;
+                    margin-top: 5px;
+                    transition: all 0.31s ease-in-out 0s;
+                    &:hover, &:focus, &:active {
+                        cursor: pointer;
+                        transform: rotate(-360deg);
+                    }
+                }
+            }
+            @include modifier("button") {
+                margin-top: 20px;
+                border: none;
+                button,
+                a,
+                input[type="submit"] {
+                    transition: all 0.32s ease-in-out;
+                    filter: grayscale(0);
+                    width: 100%;
+                    height: 70px;
+                    margin-bottom: -30px;
+                    display: block;
+                }
+                &:hover {
+                    button,
+                    a,
+                    input[type="submit"] {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 391px) and (max-width : 480px) {
+    #wrapper{
+        overflow: hidden;
+    }
+    body {
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+        background-size: cover;
+        overflow: auto;
+    }
+    .addon{
+        z-index: 12;
+        pointer-events: none;
+        @include element("thantai"){
+            max-width: 195px;
+            position: fixed;
+            left: 0%;
+            z-index: 12;
+            //background: url("../images/bg/thantai.gif") center center no-repeat;
+            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            //animation: none;
+            background-size: contain;
+            height: 350px;
+            width: 190px;
+            bottom: 0%;
+            z-index: 13;
+        }
+        @include element("goldbottom"){
+            margin: auto;
+            position: fixed;
+            left: calc(15%);
+            max-width: 325px;
+            bottom: 0%;
+            display: block;
+            z-index: 12;
+        }
+        @include element("fish"){
+            right: 0%;
+            position: fixed;
+            top: calc(60% - 20px);
+            max-width: 80px;
+            //animation: none;
+            z-index: 12;
+        }
+        @include element("shark"){
+            left: 5%;
+            position: fixed;
+            top: 1%;
+            max-width: 80px;
+            //animation: none;
+            z-index: 12;
+        }
+        @include element("octopus"){
+            right: 10%;
+            position: absolute;
+            top: 5%;
+            max-width: 85px;
+            //animation: none;
+            z-index: 12;
+        }
+    }
+
+    .boxmain {
+        padding: 25px 45px;
+        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background-size: contain;
+        z-index: 20;
+        
+        @include element("form") {
+            @include modifier("icon") {
+                width: 32px;
+                height: 32px;
+            }
+            @include modifier("input") {
+                height: 26px;
+                width: 80%;
+
+            }
+            @include modifier("captcha") {
+                text-align: left;
+                float: right;
+                display: inline-block;
+                width: 60%;
+                img {
+                    max-width: 80%;
+                    margin: auto;
+                }
+            }
+            @include modifier("reloadcaptcha") {
+                text-align: center;
+                width: 40%;
+                float: right;
+                display: inline-block;
+
+                button,
+                input,
+                a {
+                    margin: auto;
+                    margin-top: 15px;
+                    transition: all 0.31s ease-in-out 0s;
+                    &:hover, &:focus, &:active {
+                        cursor: pointer;
+                        transform: rotate(-360deg);
+                    }
+                }
+            }
+            @include modifier("button") {
+                margin-top: 20px;
+                border: none;
+                button,
+                a,
+                input[type="submit"] {
+                    transition: all 0.32s ease-in-out;
+                    filter: grayscale(0);
+                    width: 100%;
+                    height: 70px;
+                    margin-bottom: -30px;
+                    display: block;
+                }
+                &:hover {
+                    button,
+                    a,
+                    input[type="submit"] {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width : 574px) {
+    body {
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .addon{
+        z-index: 12;
+        pointer-events: none;
+        @include element("thantai"){
+            max-width: 195px;
+            position: fixed;
+            left: 0%;
+            z-index: 12;
+            //background: url("../images/bg/thantai.gif") center center no-repeat;
+            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            //animation: none;
+            background-size: contain;
+            height: 350px;
+            width: 190px;
+            bottom: 0%;
+            z-index: 12;
+        }
+        @include element("goldbottom"){
+            margin: auto;
+            position: fixed;
+            left: calc(15%);
+            max-width: 345px;
+            bottom: 0%;
+            display: block;
+            z-index: 5;
+        }
+        @include element("fish"){
+            right: 0%;
+            position: fixed;
+            top: calc(60% - 20px);
+            max-width: 80px;
+            //animation: none;
+            z-index: 12;
+        }
+        @include element("shark"){
+            left: 5%;
+            position: fixed;
+            top: 1%;
+            max-width: 80px;
+            //animation: none;
+            z-index: 12;
+        }
+        @include element("octopus"){
+            right: 10%;
+            position: absolute;
+            bottom: 5%;
+            max-width: 85px;
+            //animation: none;
+            z-index: 12;
+        }
+    }
+
+    .boxmain {
+        padding: 25px 90px;
+        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background-size: contain;
+        z-index: 20;
+        
+        @include element("form") {
+            @include modifier("icon") {
+                width: 32px;
+                height: 32px;
+            }
+            @include modifier("input") {
+                height: 26px;
+                width: 80%;
+
+            }
+            @include modifier("captcha") {
+                text-align: left;
+                float: right;
+                display: inline-block;
+                width: 60%;
+                img {
+                    max-width: 80%;
+                    margin: auto;
+                }
+            }
+            @include modifier("reloadcaptcha") {
+                text-align: center;
+                width: 40%;
+                float: right;
+                display: inline-block;
+
+                button,
+                input,
+                a {
+                    margin: auto;
+                    margin-top: 15px;
+                    transition: all 0.31s ease-in-out 0s;
+                    &:hover, &:focus, &:active {
+                        cursor: pointer;
+                        transform: rotate(-360deg);
+                    }
+                }
+            }
+            @include modifier("button") {
+                margin-top: 20px;
+                border: none;
+                button,
+                a,
+                input[type="submit"] {
+                    transition: all 0.32s ease-in-out;
+                    filter: grayscale(0);
+                    width: 100%;
+                    height: 70px;
+                    margin-bottom: -30px;
+                    display: block;
+                }
+                &:hover {
+                    button,
+                    a,
+                    input[type="submit"] {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width : 989px) {
+    body {
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../images/bg/bg-body.jpg) center center no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .addon{
+        z-index: 12;
+        pointer-events: none;
+        @include element("thantai"){
+            max-width: 195px;
+            position: fixed;
+            left: 0%;
+            z-index: 12;
+            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            background-size: contain;
+            height: 350px;
+            width: 190px;
+            bottom: 5%;
+            z-index: 15;
+        }
+        @include element("goldbottom"){
+            margin: auto;
+            position: absolute;
+            left: calc(50% - 175px);
+            max-width: 345px;
+            bottom: 0%;
+            display: block;
+            z-index: 12;
+        }
+        @include element("fish"){
+            right: 0%;
+            position: fixed;
+            bottom: calc(30% - 20px);
+            max-width: 120px;
+            z-index: 12;
+            animation: animation-fish 4s infinite;
+        }
+        @include element("shark"){
+            left: 5%;
+            position: fixed;
+            top: 1%;
+            max-width: 120px;
+            z-index: 12;
+        }
+        @include element("octopus"){
+            right: 10%;
+            position: absolute;
+            bottom: 5%;
+            max-width: 85px;
+            z-index: 12;
+        }
+    }
+
+    .boxmain {
+        padding: 25px 45px;
+        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background-size: contain;
+        z-index: 20;
+        
+        @include element("form") {
+            @include modifier("icon") {
+                width: 32px;
+                height: 32px;
+            }
+            @include modifier("input") {
+                height: 26px;
+                width: 60%;
+            }
+            @include modifier("captcha") {
+                text-align: left;
+                float: right;
+                display: inline-block;
+                width: 60%;
+                img {
+                    max-width: 80%;
+                    margin: auto;
+                }
+            }
+            @include modifier("reloadcaptcha") {
+                text-align: right;
+                width: 40%;
+                float: right;
+                display: inline-block;
+
+                button,
+                input,
+                a {
+                    margin: auto;
+                    margin: 15px 0 auto auto;
+                    transition: all 0.31s ease-in-out 0s;
+                    &:hover, &:focus, &:active {
+                        cursor: pointer;
+                        transform: rotate(-360deg);
+                    }
+                }
+            }
+            @include modifier("button") {
+                margin-top: 20px;
+                border: none;
+
+                button,
+                a,
+                input[type="submit"] {
+                    transition: all 0.32s ease-in-out;
+                    filter: grayscale(0);
+                    width: 70%;
+                    height: 70px;
+                    margin-bottom: -30px;
+                }
+                &:hover {
+                    button,
+                    a,
+                    input[type="submit"] {
+                        cursor: pointer;
+                    }
+                }
+                @include e("signin") {
+                    text-align: right;
+                    margin-right: -20px;
+                    button,
+                    a,
+                    input[type="submit"] {
+                        background-position: right;
+                    }
+                }
+                @include e("signup") {
+                    text-align: left;
+                    margin-left: -20px;
+                    button,
+                    a,
+                    input[type="submit"] {
+                        background: url("../images/bg/btn-signup.png") center center no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width : 1200px) {
+    body {
+        z-index: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../images/bg/bg-body.jpg) center center no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .addon{
+        z-index: 12;
+        pointer-events: none;
+        @include element("thantai"){
+            max-width: 195px;
+            position: fixed;
+            left: 0%;
+            z-index: 12;
+            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            background-size: contain;
+            height: 350px;
+            width: 190px;
+            bottom: 5%;
+            z-index: 15;
+        }
+        @include element("goldbottom"){
+            margin: auto;
+            position: absolute;
+            left: calc(50% - 175px);
+            max-width: 345px;
+            bottom: 0%;
+            display: block;
+            z-index: 12;
+        }
+        @include element("fish"){
+            right: 0%;
+            position: fixed;
+            bottom: calc(30% - 20px);
+            max-width: 180px;
+            z-index: 12;
+            animation: animation-fish 4s infinite;
+        }
+        @include element("shark"){
+            left: 5%;
+            position: fixed;
+            top: 1%;
+            max-width: 180px;
+            z-index: 12;
+        }
+        @include element("octopus"){
+            right: calc(30% - 20px);
+            position: absolute;
+            bottom: 5%;
+            max-width: 85px;
+            z-index: 12;
+        }
+    }
+
+    .boxmain {
+        padding: 25px 45px;
+        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background-size: contain;
+        z-index: 20;
+        
+        @include element("form") {
+            @include modifier("icon") {
+                width: 32px;
+                height: 32px;
+            }
+            @include modifier("input") {
+                height: 26px;
+                width: 60%;
+            }
+            @include modifier("captcha") {
+                text-align: left;
+                float: right;
+                display: inline-block;
+                width: 60%;
+                img {
+                    max-width: 70%;
+                    margin-left: -45px;
+                    margin-top: 3px;
+                }
+            }
+            @include modifier("captchatext") {
+                text-align: right;
+                float: right;
+                display: inline-block;
+                width: 95%;
+                input {
+                    max-width: 80%;
+                    margin: auto;
+                }
+            }
+            @include modifier("reloadcaptcha") {
+                text-align: left;
+                width: 40%;
+                float: right;
+                display: inline-block;
+
+                button,
+                input,
+                a {
+                    //margin: auto;
+                    margin: 5px 0 auto -15px;
+                    transition: all 0.31s ease-in-out 0s;
+                    &:hover, &:focus, &:active {
+                        cursor: pointer;
+                        transform: rotate(-360deg);
+                    }
+                }
+            }
+            @include modifier("button") {
+                margin-top: 20px;
+                border: none;
+
+                button,
+                a,
+                input[type="submit"] {
+                    transition: all 0.32s ease-in-out;
+                    filter: grayscale(0);
+                    width: 70%;
+                    height: 70px;
+                    margin-bottom: -30px;
+                }
+                &:hover {
+                    button,
+                    a,
+                    input[type="submit"] {
+                        cursor: pointer;
+                    }
+                }
+                @include e("signin") {
+                    text-align: right;
+                    margin-right: -20px;
+                    button,
+                    a,
+                    input[type="submit"] {
+                        background-position: right;
+                    }
+                }
+                @include e("signup") {
+                    text-align: left;
+                    margin-left: -20px;
+                    button,
+                    a,
+                    input[type="submit"] {
+                        background: url("../images/bg/btn-signup.png") center center no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+    }
+}
