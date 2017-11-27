@@ -51,16 +51,23 @@
         }
         @include modifier("captcha") {
             text-align: right;
+            max-width: 100%;
             img {
                 max-width: 100%;
                 margin: auto;
+                margin-right: -10px;
             }
+        }
+        @include modifier("captchatext"){
+            max-width: 100%;
+            float: left;
         }
         @include modifier("reloadcaptcha") {
             text-align: center;
-            button,
-            input,
-            a {
+            max-width: 15%;
+            float: left;
+
+            button, input, a {
                 border: none;
                 background: url("../images/bg/icon-reload.png") center center no-repeat;
                 background-size: cover;

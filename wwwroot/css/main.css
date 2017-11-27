@@ -866,11 +866,9 @@
 .addon__thantai {
   max-width: 295px;
   position: fixed;
-  left: 5%;
+  left: 10%;
   z-index: 12;
-  background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
-  -webkit-animation: thantai 2000ms infinite;
-  animation: thantai 2000ms infinite;
+  background: url("../images/bg/thantai.gif") center center no-repeat;
   background-size: contain;
   height: 350px;
   width: 300px;
@@ -961,15 +959,20 @@
       -webkit-box-shadow: 0px 1px 3px #e4e0ad;
       box-shadow: 0px 1px 3px #e4e0ad; }
   .boxmain__form--captcha {
-    text-align: right; }
+    text-align: right;
+    max-width: 100%; }
     .boxmain__form--captcha img {
       max-width: 100%;
-      margin: auto; }
+      margin: auto;
+      margin-right: -10px; }
+  .boxmain__form--captchatext {
+    max-width: 100%;
+    float: left; }
   .boxmain__form--reloadcaptcha {
-    text-align: center; }
-    .boxmain__form--reloadcaptcha button,
-    .boxmain__form--reloadcaptcha input,
-    .boxmain__form--reloadcaptcha a {
+    text-align: center;
+    max-width: 15%;
+    float: left; }
+    .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
       border: none;
       background: url("../images/bg/icon-reload.png") center center no-repeat;
       background-size: cover;
@@ -980,9 +983,7 @@
       -webkit-transition: all 0.31s ease-in-out 0s;
       -o-transition: all 0.31s ease-in-out 0s;
       transition: all 0.31s ease-in-out 0s; }
-      .boxmain__form--reloadcaptcha button:hover,
-      .boxmain__form--reloadcaptcha input:hover,
-      .boxmain__form--reloadcaptcha a:hover {
+      .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha input:hover, .boxmain__form--reloadcaptcha a:hover {
         cursor: pointer;
         -webkit-transform: rotate(-360deg);
         -ms-transform: rotate(-360deg);
@@ -1217,6 +1218,8 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       left: -5%;
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      -webkit-animation: none;
+      animation: none;
       background-size: contain;
       height: 150px;
       width: 150px;
@@ -1442,35 +1445,35 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     z-index: 12;
     pointer-events: none; }
     .addon__thantai {
-      max-width: 195px;
+      max-width: 295px;
       position: fixed;
-      left: 0%;
+      left: -10%;
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
       background-size: contain;
       height: 350px;
-      width: 190px;
-      bottom: 0%;
+      width: 290px;
+      bottom: 0;
       z-index: 12; }
     .addon__goldbottom {
       margin: auto;
       position: fixed;
-      left: calc(15%);
-      max-width: 345px;
+      left: 15%;
+      max-width: 545px;
       bottom: 0%;
       display: block;
       z-index: 5; }
     .addon__fish {
-      right: 0%;
+      right: -3%;
       position: fixed;
       top: calc(60% - 20px);
-      max-width: 80px;
+      max-width: 100px;
       z-index: 12; }
     .addon__shark {
-      left: 5%;
+      left: -5%;
       position: fixed;
       top: 1%;
-      max-width: 80px;
+      max-width: 100px;
       z-index: 12; }
     .addon__octopus {
       right: 10%;
@@ -1479,23 +1482,23 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       max-width: 85px;
       z-index: 12; }
   .boxmain {
-    padding: 25px 90px;
-    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    padding: 85px 30px;
+    background: url(../images/bg/box-main-bg.png) center center no-repeat;
     background-size: contain;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 26px;
-      width: 80%; }
+      height: 46px;
+      width: 100%; }
     .boxmain__form--captcha {
       text-align: left;
       float: right;
       display: inline-block;
-      width: 60%; }
+      width: 100%; }
       .boxmain__form--captcha img {
-        max-width: 80%;
+        max-width: 100%;
         margin: auto; }
     .boxmain__form--reloadcaptcha {
       text-align: center;
@@ -1555,62 +1558,62 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     z-index: 12;
     pointer-events: none; }
     .addon__thantai {
-      max-width: 195px;
+      max-width: 295px;
       position: fixed;
-      left: 0%;
+      left: 5%;
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
       background-size: contain;
       height: 350px;
-      width: 190px;
+      width: 290px;
       bottom: 5%;
       z-index: 15; }
     .addon__goldbottom {
       margin: auto;
       position: absolute;
-      left: calc(50% - 175px);
-      max-width: 345px;
+      left: calc(50% - 205px);
+      max-width: 485px;
       bottom: 0%;
       display: block;
       z-index: 12; }
     .addon__fish {
-      right: 0%;
+      right: -5%;
       position: fixed;
       bottom: calc(30% - 20px);
-      max-width: 120px;
+      max-width: 190px;
       z-index: 12;
       -webkit-animation: animation-fish 4s infinite;
       animation: animation-fish 4s infinite; }
     .addon__shark {
-      left: 5%;
+      left: -5%;
       position: fixed;
-      top: 1%;
-      max-width: 120px;
+      top: -15%;
+      max-width: 190px;
       z-index: 12; }
     .addon__octopus {
       right: 10%;
       position: absolute;
-      bottom: 5%;
-      max-width: 85px;
+      bottom: 20%;
+      max-width: 135px;
       z-index: 12; }
   .boxmain {
-    padding: 25px 45px;
-    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    padding: 65px 45px;
+    background: url(../images/bg/box-main-bg.png) center center no-repeat;
     background-size: contain;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 26px;
-      width: 60%; }
+      height: 46px;
+      width: 100%; }
     .boxmain__form--captcha {
-      text-align: left;
+      text-align: right;
       float: right;
       display: inline-block;
-      width: 60%; }
+      width: 100%; }
       .boxmain__form--captcha img {
-        max-width: 80%;
+        max-width: 100%;
         margin: auto; }
     .boxmain__form--reloadcaptcha {
       text-align: right;
@@ -1647,8 +1650,8 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
         transition: all 0.32s ease-in-out;
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
-        width: 70%;
-        height: 70px;
+        width: 100%;
+        height: 100px;
         margin-bottom: -30px; }
       .boxmain__form--button:hover button,
       .boxmain__form--button:hover a,
@@ -1656,14 +1659,14 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
         cursor: pointer; }
       .boxmain__form--button_signin {
         text-align: right;
-        margin-right: -20px; }
+        margin-right: 0px; }
         .boxmain__form--button_signin button,
         .boxmain__form--button_signin a,
         .boxmain__form--button_signin input[type="submit"] {
           background-position: right; }
       .boxmain__form--button_signup {
         text-align: left;
-        margin-left: -20px; }
+        margin-left: 0px; }
         .boxmain__form--button_signup button,
         .boxmain__form--button_signup a,
         .boxmain__form--button_signup input[type="submit"] {
@@ -1684,14 +1687,14 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     z-index: 12;
     pointer-events: none; }
     .addon__thantai {
-      max-width: 195px;
+      max-width: 295px;
       position: fixed;
-      left: 0%;
+      left: 10%;
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
       background-size: contain;
       height: 350px;
-      width: 190px;
+      width: 230px;
       bottom: 5%;
       z-index: 15; }
     .addon__goldbottom {
@@ -1699,14 +1702,14 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       position: absolute;
       left: calc(50% - 175px);
       max-width: 345px;
-      bottom: 0%;
+      bottom: 4%;
       display: block;
       z-index: 12; }
     .addon__fish {
       right: 0%;
       position: fixed;
       bottom: calc(30% - 20px);
-      max-width: 180px;
+      max-width: 210px;
       z-index: 12;
       -webkit-animation: animation-fish 4s infinite;
       animation: animation-fish 4s infinite; }
@@ -1717,38 +1720,38 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       max-width: 180px;
       z-index: 12; }
     .addon__octopus {
-      right: calc(30% - 20px);
+      right: calc(30% - 60px);
       position: absolute;
       bottom: 25%;
-      max-width: 85px;
+      max-width: 125px;
       z-index: 12; }
   .boxmain {
-    padding: 25px 45px;
-    background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+    padding: 85px 35px;
+    background: url(../images/bg/box-main-bg.png) center center no-repeat;
     background-size: contain;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 26px;
-      width: 60%; }
+      height: 56px;
+      width: 100%; }
     .boxmain__form--captcha {
-      text-align: left;
+      text-align: right;
       float: right;
       display: inline-block;
-      width: 60%; }
+      width: 100%; }
       .boxmain__form--captcha img {
-        max-width: 70%;
-        margin-left: -45px;
+        max-width: 90%;
+        margin-left: 0px;
         margin-top: 3px; }
     .boxmain__form--captchatext {
       text-align: right;
       float: right;
       display: inline-block;
-      width: 95%; }
+      width: 100%; }
       .boxmain__form--captchatext input {
-        max-width: 80%;
+        max-width: 100%;
         margin: auto; }
     .boxmain__form--reloadcaptcha {
       text-align: left;
@@ -1758,7 +1761,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       .boxmain__form--reloadcaptcha button,
       .boxmain__form--reloadcaptcha input,
       .boxmain__form--reloadcaptcha a {
-        margin: 5px 0 auto -15px;
+        margin: 15px auto;
         -webkit-transition: all 0.31s ease-in-out 0s;
         -o-transition: all 0.31s ease-in-out 0s;
         transition: all 0.31s ease-in-out 0s; }
@@ -1784,23 +1787,24 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
         transition: all 0.32s ease-in-out;
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
-        width: 70%;
-        height: 70px;
-        margin-bottom: -30px; }
+        width: 100%;
+        height: 120px;
+        margin-bottom: 0px;
+        margin-top: 20px; }
       .boxmain__form--button:hover button,
       .boxmain__form--button:hover a,
       .boxmain__form--button:hover input[type="submit"] {
         cursor: pointer; }
       .boxmain__form--button_signin {
         text-align: right;
-        margin-right: -20px; }
+        margin-right: 0px; }
         .boxmain__form--button_signin button,
         .boxmain__form--button_signin a,
         .boxmain__form--button_signin input[type="submit"] {
           background-position: right; }
       .boxmain__form--button_signup {
         text-align: left;
-        margin-left: -20px; }
+        margin-left: 0px; }
         .boxmain__form--button_signup button,
         .boxmain__form--button_signup a,
         .boxmain__form--button_signup input[type="submit"] {
