@@ -4,31 +4,31 @@
     max-height: 730px;
     display: block;
     margin: 0px auto 90px auto;
-    background: url(../images/bg/box-main-bg.png) center center no-repeat;
+    background: url(#{$imgUrl}/bg/box-main-bg.png) center center no-repeat;
     height: 760px;
     background-size: 100%;
     padding: 80px 15px;
     
     @include element("form") {
         @include modifier("icon") {
-            width: 44px;
-            height: 44px;
+            width: 35px;
+            height: 35px;
             background-size: 50%;
-            margin-top: 15px;
+            margin-top: 12px;
             opacity: 0.6;
             position: absolute;
 
             @include e("user"){
-                background: url("../images/bg/icon-user.png") center center no-repeat;
+                background: url("#{$imgUrl}/bg/icon-user.png") center center no-repeat;
                 background-size: 50%;
             }
             @include e("key"){
-                background: url("../images/bg/icon-key.png") center center no-repeat;
+                background: url("#{$imgUrl}/bg/icon-key.png") center center no-repeat;
                 background-size: 50%;
             }
         }
         @include modifier("input") {
-            height: 76px;
+            height: 55px;
             width: 100%;
             margin-bottom: 25px;
             border: none;
@@ -41,7 +41,7 @@
             text-overflow: ellipsis;
             box-shadow: 0px 1px 5px #151515;
             transition: all 0.31s ease-in-out;
-            font-size: 1.2em;
+            font-size: 1.05em;
             @include placeholder() {
                 color: $color-grey;
             }
@@ -68,6 +68,7 @@
                 margin: auto;
                 width: 100%;
                 border-radius: 5px;
+                height: 55px;
             }
         }
         @include modifier("captchatext"){
@@ -85,7 +86,7 @@
 
             button, input, a {
                 border: none;
-                background: url("../images/bg/icon-reload.png") center center no-repeat;
+                background: url("#{$imgUrl}/bg/icon-reload.png") center center no-repeat;
                 background-size: cover;
                 height: 32px;
                 width: 32px;
@@ -121,7 +122,7 @@
                 width: 45%;
 
                 button, a, input[type="submit"] {
-                    background: url("../images/bg/btn-signin.png") left center no-repeat;
+                    background: url("#{$imgUrl}/bg/btn-signin.png") left center no-repeat;
                     background-size: contain;
                     border: none;
                 }
@@ -130,7 +131,7 @@
                 text-align: left;
                 width: 55%;
                 button, a, input[type="submit"] {
-                    background: url("../images/bg/btn-signup.png") left center no-repeat;
+                    background: url("#{$imgUrl}/bg/btn-signup.png") left center no-repeat;
                     background-size: contain;
                 }
             }
@@ -144,7 +145,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url("../images/bg/bg-tranparent.png") center center no-repeat;
+    background: url("#{$imgUrl}/bg/bg-tranparent.png") center center no-repeat;
     background-size: cover;
     opacity: 0.5;
     z-index: -1;
@@ -158,7 +159,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url("../images/bg/bg-coin.png") center center no-repeat;
+    background: url("#{$imgUrl}/bg/bg-coin.png") center center no-repeat;
     background-size: cover;
     pointer-events: none;
     z-index: -1;

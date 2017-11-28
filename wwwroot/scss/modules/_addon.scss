@@ -5,8 +5,8 @@
         position: fixed;
         left: 10%;
         z-index: 12;
-        background: url("../images/bg/thantai.gif") center center no-repeat;
-        //background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+        background: url("#{$imgUrl}/bg/thantai.gif") center center no-repeat;
+        //background: url("#{$imgUrl}/bg/thantai/thantai-animation_0.png") center center no-repeat;
         //animation: thantai 2000ms infinite;
         background-size: contain;
         height: 295px;

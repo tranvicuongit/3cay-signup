@@ -5,7 +5,7 @@
         padding: 0;
         width: 100%;
         min-height: 100vh;
-        background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+        background: url(#{$imgUrl}/bg/bg-body-mb.jpg) center center no-repeat;
         background-size: cover;
         overflow: auto;
     }
@@ -25,8 +25,8 @@
             position: absolute;
             left: 0%;
             z-index: 12; 
-            //background: url("../images/bg/thantai.gif") center center no-repeat;
-            background: url("../images/bg/thantai/thantai-animation_0.png") left center no-repeat;
+            //background: url("#{$imgUrl}/bg/thantai.gif") center center no-repeat;
+            background: url("#{$imgUrl}/bg/thantai/thantai-animation_0.png") left center no-repeat;
             background-size: contain;
             animation: none;
             height: 190px;
@@ -69,7 +69,7 @@
         }
     }
     .boxmain {
-        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background: url(#{$imgUrl}/bg/box-main-bg-mb.png) center center no-repeat;
         background-size: contain;
         padding: 120px 5px;
         z-index: 20;
@@ -109,7 +109,7 @@
                     button,
                     a,
                     input[type="submit"] {
-                        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signin-mb.png") center center no-repeat;
                         background-size: contain;
                         border: none;
                         height: 55px;
@@ -120,7 +120,7 @@
                     button,
                     a,
                     input[type="submit"] {
-                        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signup-mb.png") center center no-repeat;
                         background-size: contain;
                         height: 55px;
                     }
@@ -137,7 +137,7 @@
         padding: 0;
         width: 100%;
         min-height: 100vh;
-        background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+        background: url(#{$imgUrl}/bg/bg-body-mb.jpg) center center no-repeat;
         background-size: cover;
         overflow: auto;
     }
@@ -157,7 +157,7 @@
             position: absolute;
             left: -5%;
             z-index: 12;
-            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            background: url("#{$imgUrl}/bg/thantai/thantai-animation_0.png") center center no-repeat;
             animation: none;
             background-size: contain;
             background-position: bottom left;
@@ -200,7 +200,7 @@
         }
     }
     .boxmain {
-        background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
+        background: url(#{$imgUrl}/bg/box-main-bg-mb.png) center center no-repeat;
         background-size: contain;
         padding: 40px 15px;
         margin: 75px auto 75px auto;
@@ -240,7 +240,7 @@
                 @include e("signin") {
                     width: 50%;
                     button, a, input[type="submit"] {
-                        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signin-mb.png") center center no-repeat;
                         background-size: contain;
                         border: none;
                         height: 60px;
@@ -249,7 +249,7 @@
                 @include e("signup") {
                     width: 50%;
                     button, a, input[type="submit"] {
-                        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signup-mb.png") center center no-repeat;
                         background-size: contain;
                         height: 60px;
                     }
@@ -266,7 +266,7 @@
         padding: 0;
         width: 100%;
         min-height: 100vh;
-        background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
+        background: url(#{$imgUrl}/bg/bg-body-mb.jpg) center center no-repeat;
         background-size: cover;
         overflow: auto;
     }
@@ -286,7 +286,7 @@
             position: fixed;
             left: -5%;
             z-index: 12;
-            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            background: url("#{$imgUrl}/bg/thantai/thantai-animation_0.png") center center no-repeat;
             animation: none;
             background-size: contain;
             background-position: bottom left;
@@ -329,7 +329,7 @@
         }
     }
     .boxmain {
-        background: url(../images/bg/box-main-bg.png) center center no-repeat;
+        background: url(#{$imgUrl}/bg/box-main-bg.png) center center no-repeat;
         background-size: contain;
         padding: 120px 5px;
         margin: 0px auto 50px auto;
@@ -368,7 +368,7 @@
                 @include e("signin") {
                     width: 50%;
                     button, a, input[type="submit"] {
-                        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signin-mb.png") center center no-repeat;
                         background-size: contain;
                         border: none;
                     }
@@ -376,7 +376,7 @@
                 @include e("signup") {
                     width: 50%;
                     button, a, input[type="submit"] {
-                        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signup-mb.png") center center no-repeat;
                         background-size: contain;
                     }
                 }
@@ -392,7 +392,7 @@
         padding: 0;
         width: 100%;
         min-height: 100vh;
-        background: url(../images/bg/bg-body.jpg) center center no-repeat;
+        background: url(#{$imgUrl}/bg/bg-body.jpg) center center no-repeat;
         background-size: cover;
         overflow: auto;
     }
@@ -448,7 +448,7 @@
         }
     }
     .boxmain {
-        background: url(../images/bg/box-main-bg.png) center center no-repeat;
+        background: url(#{$imgUrl}/bg/box-main-bg.png) center center no-repeat;
         background-size: contain;
         padding: 80px 35px;
         margin: 45px auto 0 auto;
@@ -485,7 +485,7 @@
                 @include e("signin") {
                     width: 50%;
                     button, a, input[type="submit"] {
-                        background: url("../images/bg/btn-signin.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signin.png") center center no-repeat;
                         background-size: contain;
                         border: none;
                     }
@@ -493,7 +493,7 @@
                 @include e("signup") {
                     width: 50%;
                     button, a, input[type="submit"] {
-                        background: url("../images/bg/btn-signup.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signup.png") center center no-repeat;
                         background-size: contain;
                     }
                 }
@@ -509,7 +509,7 @@
         padding: 0;
         width: 100%;
         min-height: 100vh;
-        background: url(../images/bg/bg-body.jpg) center center no-repeat;
+        background: url(#{$imgUrl}/bg/bg-body.jpg) center center no-repeat;
         background-size: cover; //overflow: hidden;
         overflow: auto;
     }
@@ -529,7 +529,7 @@
             position: fixed;
             left: 10%;
             z-index: 12;
-            background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+            background: url("#{$imgUrl}/bg/thantai/thantai-animation_0.png") center center no-repeat;
             background-size: contain;
             background-position: bottom left;
             height: 350px;
@@ -571,7 +571,7 @@
     }
     .boxmain {
         padding: 85px 35px;
-        background: url(../images/bg/box-main-bg.png) center center no-repeat;
+        background: url(#{$imgUrl}/bg/box-main-bg.png) center center no-repeat;
         background-size: contain;
         z-index: 20;
         @include element("form") {
@@ -647,7 +647,7 @@
                     text-align: left;
                     margin-left: 0px;
                     button, a, input[type="submit"] {
-                        background: url("../images/bg/btn-signup.png") center center no-repeat;
+                        background: url("#{$imgUrl}/bg/btn-signup.png") center center no-repeat;
                         background-size: contain;
                     }
                 }
@@ -660,7 +660,7 @@
 @media only screen and (orientation:landscape) and (max-width: 1000px) {
     body {
         overflow-y: auto !important;
-        background: url("../images/bg/bg-body.jpg") center center no-repeat;
+        background: url("#{$imgUrl}/bg/bg-body.jpg") center center no-repeat;
 
     }
     .addon {
@@ -691,7 +691,7 @@
 @media only screen and (orientation:landscape) and (min-width: 1001px) {
     body {
         overflow-y: auto !important;
-    background: url("../images/bg/bg-body.jpg") center center no-repeat;
+    background: url("#{$imgUrl}/bg/bg-body.jpg") center center no-repeat;
     }
     .addon {
         @include element("thantai") {

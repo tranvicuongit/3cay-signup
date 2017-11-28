@@ -17,7 +17,7 @@
         top: calc(50% - 0px);
     }
     50% {
-        top: calc(50% - 85px);
+        top: calc(50% - 25px);
     }
     100% {
         top: calc(50% - 0px);
@@ -85,7 +85,7 @@
         top: 1%;
     }
     50% {
-        top: 5%;
+        top: 3%;
     }
     100% {
         top: 1%;
@@ -109,22 +109,22 @@
 {
     @for $i from 0 through 28 {
         #{$i*50/30}%{
-            background: url("../images/bg/thantai/thantai-animation_#{$i}.png") center center no-repeat;
+            background: url("#{$imgUrl}/bg/thantai/thantai-animation_#{$i}.png") center center no-repeat;
             background-size: contain;
         }
     }
     50% {
-        background: url("../images/bg/thantai/thantai-animation_29.png") center center no-repeat; 
+        background: url("#{$imgUrl}/bg/thantai/thantai-animation_29.png") center center no-repeat; 
         background-size: contain;
     }
     @for $i from 1 through 29 {
         #{$i*(50/30)+50}%{
-            background: url("../images/bg/thantai/thantai-animation_#{$i}.png") center center no-repeat;
+            background: url("#{$imgUrl}/bg/thantai/thantai-animation_#{$i}.png") center center no-repeat;
             background-size: contain;
         }
     }
     100% {
-        background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat; 
+        background: url("#{$imgUrl}/bg/thantai/thantai-animation_0.png") center center no-repeat; 
         background-size: contain;
     }
 }
