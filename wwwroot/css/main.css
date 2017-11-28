@@ -956,18 +956,18 @@
   .addon__thantai {
     max-width: 295px;
     position: fixed;
-    left: 5%;
+    left: 10%;
     z-index: 12;
     background: url("../images/bg/thantai.gif") center center no-repeat;
     background-size: contain;
-    height: 250px;
-    width: 250px;
+    height: 295px;
+    width: 295px;
     bottom: 0%; }
   .addon__goldbottom {
     margin: 0;
     position: absolute;
     left: calc(50% - 275px);
-    max-width: 615px;
+    max-width: 100%;
     bottom: 0%; }
   .addon__fish {
     right: 5%;
@@ -994,19 +994,19 @@
 /** Import page  **/
 .boxmain {
   z-index: 10;
-  max-width: 530px;
-  max-height: 733px;
+  max-width: 550px;
+  max-height: 730px;
   display: block;
   margin: 0px auto 90px auto;
   background: url(../images/bg/box-main-bg.png) center center no-repeat;
   height: 760px;
   background-size: 100%;
-  padding: 90px 55px; }
+  padding: 80px 15px; }
   .boxmain__form--icon {
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
     background-size: 50%;
-    margin-top: 12px;
+    margin-top: 15px;
     opacity: 0.6;
     position: absolute; }
     .boxmain__form--icon_user {
@@ -1016,13 +1016,13 @@
       background: url("../images/bg/icon-key.png") center center no-repeat;
       background-size: 50%; }
   .boxmain__form--input {
-    height: 56px;
+    height: 76px;
     width: 100%;
     margin-bottom: 25px;
     border: none;
     border-top: 3px solid #a6a6a6;
     border-bottom: 1px solid #a6a6a6;
-    padding: 20px 10px 20px 30px;
+    padding: 20px 10px 20px 40px;
     border-radius: 4px;
     white-space: nowrap;
     overflow-x: hidden;
@@ -1032,7 +1032,8 @@
     box-shadow: 0px 1px 5px #151515;
     -webkit-transition: all 0.31s ease-in-out;
     -o-transition: all 0.31s ease-in-out;
-    transition: all 0.31s ease-in-out; }
+    transition: all 0.31s ease-in-out;
+    font-size: 1.2em; }
     .boxmain__form--input::-webkit-input-placeholder {
       color: #7f7f7f; }
     .boxmain__form--input::-moz-placeholder {
@@ -1049,7 +1050,7 @@
     width: 100%; }
   .boxmain__form_button {
     display: table;
-    width: 100%; }
+    width: 120%; }
   .boxmain__form--captcha {
     text-align: right;
     display: table-cell;
@@ -1080,7 +1081,8 @@
       -webkit-transition: all 0.31s ease-in-out 0s;
       -o-transition: all 0.31s ease-in-out 0s;
       transition: all 0.31s ease-in-out 0s;
-      margin-top: -15px; }
+      margin-top: -15px;
+      display: inline-table; }
       .boxmain__form--reloadcaptcha button:hover, .boxmain__form--reloadcaptcha input:hover, .boxmain__form--reloadcaptcha a:hover {
         cursor: pointer;
         -webkit-transform: rotate(-360deg);
@@ -1097,7 +1099,8 @@
       filter: grayscale(0.1);
       width: 100%;
       height: 108px;
-      border: none; }
+      border: none;
+      display: inline-table; }
     .boxmain__form--button:hover button, .boxmain__form--button:hover a, .boxmain__form--button:hover input[type="submit"] {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
@@ -1106,15 +1109,17 @@
       -webkit-filter: grayscale(0);
       filter: grayscale(0); }
     .boxmain__form--button_signin {
-      text-align: center; }
+      text-align: left;
+      width: 45%; }
       .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
-        background: url("../images/bg/btn-signin.png") center center no-repeat;
+        background: url("../images/bg/btn-signin.png") left center no-repeat;
         background-size: contain;
         border: none; }
     .boxmain__form--button_signup {
-      text-align: center; }
+      text-align: left;
+      width: 55%; }
       .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
-        background: url("../images/bg/btn-signup.png") center center no-repeat;
+        background: url("../images/bg/btn-signup.png") left center no-repeat;
         background-size: contain; }
 
 .bgtranparent {
@@ -1198,7 +1203,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     min-height: 100vh;
     background: url(../images/bg/bg-body-mb.jpg) center center no-repeat;
     background-size: cover;
-    overflow: hidden; }
+    overflow: auto; }
   .page_logo {
     z-index: 21;
     position: absolute;
@@ -1211,37 +1216,37 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     pointer-events: none; }
     .addon__thantai {
       max-width: 195px;
-      position: fixed;
+      position: absolute;
       left: 0%;
       z-index: 12;
-      background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
+      background: url("../images/bg/thantai/thantai-animation_0.png") left center no-repeat;
+      background-size: contain;
       -webkit-animation: none;
       animation: none;
-      background-size: contain;
-      height: 350px;
-      width: 190px;
+      height: 190px;
+      width: 180px;
       bottom: 0%;
       z-index: 12; }
     .addon__goldbottom {
       margin: auto;
-      position: fixed;
-      left: calc(0%);
-      max-width: 345px;
+      position: absolute;
+      left: 0;
+      max-width: 100%;
       bottom: 0%;
       display: block;
-      z-index: 12; }
+      z-index: 11; }
     .addon__fish {
       right: 0%;
-      position: fixed;
+      position: absolute;
       top: calc(60% - 20px);
       max-width: 80px;
       -webkit-animation: none;
       animation: none;
       z-index: 12; }
     .addon__shark {
-      left: 5%;
-      position: fixed;
-      top: 1%;
+      left: 0%;
+      position: absolute;
+      top: 0%;
       max-width: 80px;
       -webkit-animation: none;
       animation: none;
@@ -1257,17 +1262,20 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
   .boxmain {
     background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
     background-size: contain;
-    padding: 150px 5px;
+    padding: 120px 5px;
     z-index: 20;
     margin-bottom: 170px;
-    margin-top: 20px;
+    margin-top: 10px;
     max-height: 560px; }
     .boxmain__form--icon {
       width: 32px;
-      height: 32px; }
+      height: 32px;
+      margin-top: 10px; }
     .boxmain__form--input {
-      height: 22px;
-      margin-bottom: 10px; }
+      height: 46px;
+      margin-bottom: 20px;
+      padding-left: 30px;
+      font-size: 1em; }
     .boxmain__form--captcha {
       width: 50%; }
     .boxmain__form--reloadcaptcha {
@@ -1275,16 +1283,28 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       width: 10%; }
       .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
         background-size: 75%; }
+    .boxmain__form_button {
+      width: 105%; }
     .boxmain__form--button {
-      margin-top: 20px;
+      margin-top: 10px;
       border: none; }
-      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
-        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
-        background-size: contain;
-        border: none; }
-      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
-        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
-        background-size: contain; } }
+      .boxmain__form--button_signin {
+        width: 50%; }
+        .boxmain__form--button_signin button,
+        .boxmain__form--button_signin a,
+        .boxmain__form--button_signin input[type="submit"] {
+          background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+          background-size: contain;
+          border: none;
+          height: 55px; }
+      .boxmain__form--button_signup {
+        width: 50%; }
+        .boxmain__form--button_signup button,
+        .boxmain__form--button_signup a,
+        .boxmain__form--button_signup input[type="submit"] {
+          background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+          background-size: contain;
+          height: 55px; } }
 
 @media only screen and (min-width: 320px) and (max-width: 400px) {
   body {
@@ -1308,13 +1328,14 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     pointer-events: none; }
     .addon__thantai {
       max-width: 215px;
-      position: fixed;
+      position: absolute;
       left: -5%;
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
       -webkit-animation: none;
       animation: none;
       background-size: contain;
+      background-position: bottom left;
       height: 180px;
       width: 180px;
       bottom: 0%;
@@ -1324,7 +1345,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       position: absolute;
       left: calc(50% - 140px);
       max-width: 330px;
-      bottom: 0%;
+      bottom: 5%;
       z-index: 12; }
     .addon__fish {
       right: -7%;
@@ -1353,16 +1374,18 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
   .boxmain {
     background: url(../images/bg/box-main-bg-mb.png) center center no-repeat;
     background-size: contain;
-    padding: 70px 5px;
-    margin: 70px auto 0 auto;
-    height: 550px;
+    padding: 40px 15px;
+    margin: 75px auto 75px auto;
+    height: 490px;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
-      height: 32px; }
+      height: 32px;
+      margin-top: 10px; }
     .boxmain__form--input {
-      height: 22px;
-      margin-bottom: 10px; }
+      height: 45px;
+      margin-bottom: 20px;
+      padding-left: 32px; }
     .boxmain__form--captcha {
       width: 30%; }
     .boxmain__form--captchatext {
@@ -1372,16 +1395,24 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       width: 20%; }
       .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
         background-size: 75%; }
+    .boxmain__form_button {
+      width: 105%; }
     .boxmain__form--button {
-      margin-top: 20px;
+      margin-top: 10px;
       border: none; }
-      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
-        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
-        background-size: contain;
-        border: none; }
-      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
-        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
-        background-size: contain; } }
+      .boxmain__form--button_signin {
+        width: 50%; }
+        .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+          background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+          background-size: contain;
+          border: none;
+          height: 60px; }
+      .boxmain__form--button_signup {
+        width: 50%; }
+        .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+          background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+          background-size: contain;
+          height: 60px; } }
 
 @media only screen and (min-width: 401px) and (max-width: 540px) {
   body {
@@ -1412,6 +1443,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       -webkit-animation: none;
       animation: none;
       background-size: contain;
+      background-position: bottom left;
       height: 210px;
       width: 210px;
       bottom: 0%;
@@ -1450,16 +1482,16 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
   .boxmain {
     background: url(../images/bg/box-main-bg.png) center center no-repeat;
     background-size: contain;
-    padding: 80px 5px;
-    margin: 45px auto 0 auto;
-    height: 620px;
+    padding: 120px 5px;
+    margin: 0px auto 50px auto;
+    height: 680px;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 22px;
-      margin-bottom: 10px; }
+      height: 60px;
+      margin-bottom: 20px; }
     .boxmain__form--captcha {
       width: 30%; }
     .boxmain__form--captchatext {
@@ -1467,18 +1499,26 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     .boxmain__form--reloadcaptcha {
       text-align: center;
       width: 20%; }
-      .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
+      .boxmain__form--reloadcaptcha button,
+      .boxmain__form--reloadcaptcha input,
+      .boxmain__form--reloadcaptcha a {
         background-size: 75%; }
+    .boxmain__form_button {
+      width: 105%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
-      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
-        background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
-        background-size: contain;
-        border: none; }
-      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
-        background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
-        background-size: contain; } }
+      .boxmain__form--button_signin {
+        width: 50%; }
+        .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+          background: url("../images/bg/btn-signin-mb.png") center center no-repeat;
+          background-size: contain;
+          border: none; }
+      .boxmain__form--button_signup {
+        width: 50%; }
+        .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+          background: url("../images/bg/btn-signup-mb.png") center center no-repeat;
+          background-size: contain; } }
 
 @media only screen and (min-width: 541px) and (max-width: 989px) {
   body {
@@ -1489,7 +1529,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     min-height: 100vh;
     background: url(../images/bg/bg-body.jpg) center center no-repeat;
     background-size: cover;
-    overflow: hidden; }
+    overflow: auto; }
   .page_logo {
     z-index: 21;
     position: absolute;
@@ -1517,16 +1557,16 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       bottom: 4%;
       z-index: 12; }
     .addon__fish {
-      right: 1%;
+      right: 0%;
       position: absolute;
       top: calc(40% - 20px);
-      max-width: 175px;
+      max-width: 125px;
       z-index: 12; }
     .addon__shark {
-      left: 5%;
+      left: 0%;
       position: absolute;
-      top: 5%;
-      max-width: 175px;
+      top: 0%;
+      max-width: 125px;
       z-index: 12; }
     .addon__octopus {
       right: 12%;
@@ -1539,14 +1579,14 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     background-size: contain;
     padding: 80px 35px;
     margin: 45px auto 0 auto;
-    height: 620px;
+    height: 720px;
     z-index: 20; }
     .boxmain__form--icon {
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 22px;
-      margin-bottom: 10px; }
+      height: 65px;
+      margin-bottom: 20px; }
     .boxmain__form--captcha {
       width: 30%; }
     .boxmain__form--captchatext {
@@ -1556,16 +1596,22 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       width: 20%; }
       .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
         background-size: 75%; }
+    .boxmain__form_button {
+      width: 105%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
-      .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
-        background: url("../images/bg/btn-signin.png") center center no-repeat;
-        background-size: contain;
-        border: none; }
-      .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
-        background: url("../images/bg/btn-signup.png") center center no-repeat;
-        background-size: contain; } }
+      .boxmain__form--button_signin {
+        width: 50%; }
+        .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
+          background: url("../images/bg/btn-signin.png") center center no-repeat;
+          background-size: contain;
+          border: none; }
+      .boxmain__form--button_signup {
+        width: 50%; }
+        .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
+          background: url("../images/bg/btn-signup.png") center center no-repeat;
+          background-size: contain; } }
 
 @media only screen and (min-width: 990px) and (max-width: 1200px) {
   body {
@@ -1576,7 +1622,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
     min-height: 100vh;
     background: url(../images/bg/bg-body.jpg) center center no-repeat;
     background-size: cover;
-    overflow: hidden; }
+    overflow: auto; }
   .page_logo {
     z-index: 21;
     position: absolute;
@@ -1594,6 +1640,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       z-index: 12;
       background: url("../images/bg/thantai/thantai-animation_0.png") center center no-repeat;
       background-size: contain;
+      background-position: bottom left;
       height: 350px;
       width: 230px;
       bottom: 5%;
@@ -1608,7 +1655,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       z-index: 12; }
     .addon__fish {
       right: 0%;
-      position: fixed;
+      position: absolute;
       bottom: calc(30% - 20px);
       max-width: 210px;
       z-index: 12;
@@ -1616,14 +1663,14 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       animation: animation-fish 4s infinite; }
     .addon__shark {
       left: 5%;
-      position: fixed;
+      position: absolute;
       top: 1%;
       max-width: 180px;
       z-index: 12; }
     .addon__octopus {
-      right: calc(30% - 60px);
+      right: 15%;
       position: absolute;
-      bottom: 25%;
+      bottom: 15%;
       max-width: 125px;
       z-index: 12; }
   .boxmain {
@@ -1635,30 +1682,21 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       width: 32px;
       height: 32px; }
     .boxmain__form--input {
-      height: 56px;
+      height: 66px;
       width: 100%; }
     .boxmain__form--captcha {
-      text-align: right;
-      float: right;
-      display: inline-block;
-      width: 100%; }
+      width: 40%; }
       .boxmain__form--captcha img {
         max-width: 90%;
         margin-left: 0px;
         margin-top: 3px; }
     .boxmain__form--captchatext {
-      text-align: right;
-      float: right;
-      display: inline-block;
-      width: 100%; }
+      width: 50%; }
       .boxmain__form--captchatext input {
         max-width: 100%;
         margin: auto; }
     .boxmain__form--reloadcaptcha {
-      text-align: left;
-      width: 40%;
-      float: right;
-      display: inline-block; }
+      width: 10%; }
       .boxmain__form--reloadcaptcha button,
       .boxmain__form--reloadcaptcha input,
       .boxmain__form--reloadcaptcha a {
@@ -1677,12 +1715,12 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
           -webkit-transform: rotate(-360deg);
           -ms-transform: rotate(-360deg);
           transform: rotate(-360deg); }
+    .boxmain__form_button {
+      width: 110%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
-      .boxmain__form--button button,
-      .boxmain__form--button a,
-      .boxmain__form--button input[type="submit"] {
+      .boxmain__form--button button, .boxmain__form--button a, .boxmain__form--button input[type="submit"] {
         -webkit-transition: all 0.32s ease-in-out;
         -o-transition: all 0.32s ease-in-out;
         transition: all 0.32s ease-in-out;
@@ -1697,19 +1735,63 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       .boxmain__form--button:hover input[type="submit"] {
         cursor: pointer; }
       .boxmain__form--button_signin {
+        width: 50%;
         text-align: right;
         margin-right: 0px; }
-        .boxmain__form--button_signin button,
-        .boxmain__form--button_signin a,
-        .boxmain__form--button_signin input[type="submit"] {
+        .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
           background-position: right; }
       .boxmain__form--button_signup {
+        width: 50%;
         text-align: left;
         margin-left: 0px; }
-        .boxmain__form--button_signup button,
-        .boxmain__form--button_signup a,
-        .boxmain__form--button_signup input[type="submit"] {
+        .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
           background: url("../images/bg/btn-signup.png") center center no-repeat;
           background-size: contain; } }
+
+@media only screen and (orientation: landscape) and (max-width: 1000px) {
+  body {
+    overflow-y: auto !important; }
+  .addon__thantai {
+    position: absolute !important;
+    -webkit-animation: none !important;
+    animation: none !important; }
+  .addon__goldbottom {
+    -webkit-animation: none;
+    animation: none; }
+  .addon__fish {
+    -webkit-animation: none;
+    animation: none; }
+  .addon__shark {
+    -webkit-animation: none;
+    animation: none; }
+  .addon__octopus {
+    -webkit-animation: none;
+    animation: none; }
+  .boxmain {
+    min-height: calc(100vh - 50%);
+    margin-bottom: 40px; } }
+
+@media only screen and (orientation: landscape) and (min-width: 1001px) {
+  body {
+    overflow-y: auto !important; }
+  .addon__thantai {
+    position: absolute !important;
+    -webkit-animation: none !important;
+    animation: none !important; }
+  .addon__goldbottom {
+    -webkit-animation: none;
+    animation: none; }
+  .addon__fish {
+    -webkit-animation: none;
+    animation: none; }
+  .addon__shark {
+    -webkit-animation: none;
+    animation: none; }
+  .addon__octopus {
+    -webkit-animation: none;
+    animation: none; }
+  .boxmain {
+    min-height: 760px;
+    margin-bottom: 160px; } }
 
 /** Import partials  **/
