@@ -660,6 +660,8 @@
 @media only screen and (orientation:landscape) and (max-width: 1000px) {
     body {
         overflow-y: auto !important;
+        background: url("../images/bg/bg-body-mb.jpg") center center no-repeat;
+
     }
     .addon {
         @include element("thantai") {
@@ -687,6 +689,7 @@
 @media only screen and (orientation:landscape) and (min-width: 1001px) {
     body {
         overflow-y: auto !important;
+    background: url("../images/bg/bg-body.jpg") center center no-repeat;
     }
     .addon {
         @include element("thantai") {
