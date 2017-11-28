@@ -11,6 +11,19 @@
     }
 }
 
+@include keyframes('animation-fish-smooth')
+{
+    0% {
+        top: calc(50% - 0px);
+    }
+    50% {
+        top: calc(50% - 85px);
+    }
+    100% {
+        top: calc(50% - 0px);
+    }
+}
+
 @include keyframes('animation-coin')
 {
     0% {
@@ -60,6 +73,19 @@
     }
     50% {
         top: 10%;
+    }
+    100% {
+        top: 1%;
+    }
+}
+
+@include keyframes( animation-shark-smooth )
+{
+    0% {
+        top: 1%;
+    }
+    50% {
+        top: 5%;
     }
     100% {
         top: 1%;

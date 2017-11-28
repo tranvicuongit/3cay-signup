@@ -214,7 +214,7 @@
                 margin-top: 10px;
             }
             @include modifier("input") {
-                height: 45px;
+                height: 40px;
                 margin-bottom: 20px;
                 padding-left: 32px;
             }
@@ -341,7 +341,7 @@
                 height: 32px;
             }
             @include modifier("input") {
-                height: 60px;
+                height: 50px;
                 margin-bottom: 20px;
             }
             @include modifier("captcha") {
@@ -452,7 +452,7 @@
         background-size: contain;
         padding: 80px 35px;
         margin: 45px auto 0 auto;
-        height: 720px;
+        height: 670px;
         z-index: 20;
         @include element("form") {
             @include modifier("icon") {
@@ -460,7 +460,7 @@
                 height: 32px;
             }
             @include modifier("input") {
-                height: 65px;
+                height: 55px;
                 margin-bottom: 20px;
             }
             @include modifier("captcha") {
@@ -580,7 +580,7 @@
                 height: 32px;
             }
             @include modifier("input") {
-                height: 66px;
+                height: 60px;
                 width: 100%;
             }
             @include modifier("captcha") {
@@ -660,7 +660,7 @@
 @media only screen and (orientation:landscape) and (max-width: 1000px) {
     body {
         overflow-y: auto !important;
-        background: url("../images/bg/bg-body-mb.jpg") center center no-repeat;
+        background: url("../images/bg/bg-body.jpg") center center no-repeat;
 
     }
     .addon {
@@ -669,16 +669,18 @@
             animation: none !important;
         }
         @include element("goldbottom") {
-            animation: none;
+            //animation: none;
         }
         @include element("fish") {
-            animation: none;
+            //animation: none;
+            animation-name: animation-fish-smooth;
         }
         @include element("shark") {
-            animation: none;
+            //animation: none;
+            animation-name: animation-shark-smooth;
         }
         @include element("octopus") {
-            animation: none;
+            //animation: none;
         }
     }
     .boxmain{
@@ -697,20 +699,22 @@
             animation: none !important;
         }
         @include element("goldbottom") {
-            animation: none;
+            //animation: none;
         }
         @include element("fish") {
-            animation: none;
+            //animation: none;
+            animation-name: animation-fish-smooth;
         }
         @include element("shark") {
-            animation: none;
+            //animation: none;
+            animation-name: animation-shark-smooth;
         }
         @include element("octopus") {
-            animation: none;
+            //animation: none;
         }
     }
     .boxmain{
-        min-height: 760px;
+        min-height: 750px;
         margin-bottom: 160px;
     }
 }
