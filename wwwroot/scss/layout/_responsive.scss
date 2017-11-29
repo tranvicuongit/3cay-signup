@@ -360,7 +360,7 @@
                 }
             }
             @include e("button"){
-                width: 105%;
+                width: 100%;
             }
             @include modifier("button") {
                 margin-top: 20px;
@@ -477,7 +477,7 @@
                 }
             }
             @include e("button"){
-                width: 105%;
+                width: 100%;
             }
             @include modifier("button") {
                 margin-top: 20px;
@@ -614,7 +614,7 @@
                 }
             }
             @include e("button"){
-                width: 110%;
+                width: 100%;
             }
             @include modifier("button") {
                 margin-top: 20px;

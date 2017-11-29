@@ -16,9 +16,9 @@
     @include element("goldbottom"){
         margin: 0;
         position: absolute;
-        left: calc(50% - 275px);
+        left: calc(45% - 275px);
         max-width: 100%;
-        bottom: 0%;
+        bottom: -5%;
     }
     @include element("fish"){
         right: 5%;

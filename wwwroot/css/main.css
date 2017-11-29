@@ -1030,9 +1030,9 @@
   .addon__goldbottom {
     margin: 0;
     position: absolute;
-    left: calc(50% - 275px);
+    left: calc(45% - 275px);
     max-width: 100%;
-    bottom: 0%; }
+    bottom: -5%; }
   .addon__fish {
     right: 5%;
     position: absolute;
@@ -1065,7 +1065,7 @@
   background: url(../images/bg/box-main-bg.png) center center no-repeat;
   height: 760px;
   background-size: 100%;
-  padding: 80px 15px; }
+  padding: 145px 25px; }
   .boxmain__form--icon {
     width: 35px;
     height: 35px;
@@ -1114,7 +1114,8 @@
     width: 100%; }
   .boxmain__form_button {
     display: table;
-    width: 120%; }
+    width: 100%;
+    margin-left: 0; }
   .boxmain__form--captcha {
     text-align: right;
     display: table-cell;
@@ -1175,14 +1176,14 @@
       filter: grayscale(0); }
     .boxmain__form--button_signin {
       text-align: left;
-      width: 45%; }
+      width: 50%; }
       .boxmain__form--button_signin button, .boxmain__form--button_signin a, .boxmain__form--button_signin input[type="submit"] {
         background: url("../images/bg/btn-signin.png") left center no-repeat;
         background-size: contain;
         border: none; }
     .boxmain__form--button_signup {
       text-align: left;
-      width: 55%; }
+      width: 50%; }
       .boxmain__form--button_signup button, .boxmain__form--button_signup a, .boxmain__form--button_signup input[type="submit"] {
         background: url("../images/bg/btn-signup.png") left center no-repeat;
         background-size: contain; }
@@ -1569,7 +1570,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       .boxmain__form--reloadcaptcha a {
         background-size: 75%; }
     .boxmain__form_button {
-      width: 105%; }
+      width: 100%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
@@ -1662,7 +1663,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
       .boxmain__form--reloadcaptcha button, .boxmain__form--reloadcaptcha input, .boxmain__form--reloadcaptcha a {
         background-size: 75%; }
     .boxmain__form_button {
-      width: 105%; }
+      width: 100%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }
@@ -1781,7 +1782,7 @@ input:focus, input:active, button:focus, button:active, textarea:focus, textarea
           -ms-transform: rotate(-360deg);
           transform: rotate(-360deg); }
     .boxmain__form_button {
-      width: 110%; }
+      width: 100%; }
     .boxmain__form--button {
       margin-top: 20px;
       border: none; }

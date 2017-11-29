@@ -7,7 +7,7 @@
     background: url(#{$imgUrl}/bg/box-main-bg.png) center center no-repeat;
     height: 760px;
     background-size: 100%;
-    padding: 80px 15px;
+    padding: 145px 25px;
     
     @include element("form") {
         @include modifier("icon") {
@@ -56,7 +56,8 @@
         }
         @include e("button"){
             display: table;
-            width: 120%;
+            width: 100%;
+            margin-left: 0;
         }
         @include modifier("captcha") {
             text-align: right;
@@ -119,7 +120,7 @@
             }
             @include e("signin") {
                 text-align: left;
-                width: 45%;
+                width: 50%;
 
                 button, a, input[type="submit"] {
                     background: url("#{$imgUrl}/bg/btn-signin.png") left center no-repeat;
@@ -129,7 +130,7 @@
             }
             @include e("signup") {
                 text-align: left;
-                width: 55%;
+                width: 50%;
                 button, a, input[type="submit"] {
                     background: url("#{$imgUrl}/bg/btn-signup.png") left center no-repeat;
                     background-size: contain;
